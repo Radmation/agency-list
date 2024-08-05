@@ -1,4 +1,4 @@
-# Synergestic Effects - WordPress Website
+# Agency List - WordPress Website
 
 ## Table of Contents
 ---
