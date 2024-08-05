@@ -1,0 +1,61 @@
+input.medium-text,
+textarea.medium-text,
+select.medium-text {
+	width: 12.25em;
+}
+
+.geodir-pkg-none,
+tr.gd-advanced-setting.gda-show.geodir-pkg-none {
+	display: none;
+}
+
+.geodir-packages-list .column-is_default,
+.geodir-packages-list .column-status,
+.geodir-packages-list .column-display_order,
+.geodir-packages-list .column-id {
+	width: 80px;
+}
+
+.geodir-packages-list .column-is_default,
+.geodir-packages-list .column-status,
+.geodir-packages-list .column-product_id {
+	text-align: center;
+}
+
+.geodir-packages-list .geodir-package-status-1 span.package-status {
+	color: green;
+}
+.gd-listing-invoices .column-act-btn {
+	margin: 0 5px 4px 0;
+	padding: 0 6px 1px;
+}
+.gd-listing-invoices .column-act-btn {
+	margin: 0 5px 4px 0;
+	padding: 0 6px 1px;
+}
+.gd-listing-invoices .column-act-btn .dashicons-print {
+	font-size: 13px !important;
+}
+.gd-listing-invoices .column-act-btn .dashicons {
+	float: left;
+	font-size: 16px;
+	margin: 5px 0 0;
+}
+.geodir-package-form .gd-advanced-toggle {
+	display: none;
+}
+
+.posts.fixed {
+	.column-package_id {
+		word-wrap: normal;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+}
+
+[data-field_type_key="package_id"] {
+	[data-setting="for_admin_use"] {
+		display: none;
+	}
+}

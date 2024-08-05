@@ -1,0 +1,68 @@
+/**************************************
+Search filter styles
+**************************************/
+.geodir-filter-container{
+  .geodir-filter-cat{
+    width: 25%;
+    padding: 10px;
+    min-width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    flex: 1 1 auto;
+  }
+
+  .customize_filter-in{
+
+    background: #F4F4F4;
+    border: 1px #e6e6e6 solid;
+    border-top: none;
+    padding: 1%;
+    width: calc(98% - 2px);
+    margin: 0 auto;
+    span{
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      color: #777777;
+      padding: 0;
+    }
+    ul{
+      li{
+        font-size: 13px;
+        padding: 6px 0;
+        border-bottom: 1px #d8d8d8 solid;
+        margin-left: 0;
+      }
+    }
+    .customize_filter_inner{
+      .clearfix{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+      }
+    }
+
+    .geodir-filter-cat{
+      ul{
+        list-style: none;
+        padding: 0;
+        margin: 0 0 10px 0;
+      }
+      input[type="text"],
+      input[type="number"],
+      select{
+        width: 100%;
+        float: none;
+        margin: 0;
+        padding: 5px;
+      }
+      .from-to{
+        input[type="number"]:nth-child(2),input[type="text"]:nth-child(2){
+          margin-top: 5px;
+        }
+      }
+    }
+
+
+  }
+}

@@ -1,0 +1,1051 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GeoDirectory Custom Post Types 2.3.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-22 17:06+0530\n"
+"PO-Revision-Date: 2024-02-22 17:06+0530\n"
+"Last-Translator: Stiofan <info@geotheme.com>\n"
+"Language-Team: AyeCode Ltd <contact@ayecode.io>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;__ngettext:1,2;__ngettext_noop:1,2;_c;_e;_ex:1,2c;"
+"_n:1,2;_n_noop:1,2;_nc:4c,1,2;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;gettext;"
+"gettext_noop\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/admin/admin-functions.php:13
+msgid "Are you wish to delete this post type?"
+msgstr ""
+
+#: includes/admin/admin-functions.php:55
+msgid "Custom Post Types"
+msgstr ""
+
+#: includes/admin/admin-functions.php:56
+msgid ""
+"Check this box if you would like to completely remove all of its data when "
+"Custom Post Types is deleted."
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin-assets.php:38
+#: includes/admin/class-geodir-cp-admin-assets.php:58
+msgid "GeoDirectory"
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin-import-export.php:52
+#: includes/admin/settings/class-geodir-cp-settings-cpts.php:27
+#: includes/admin/settings/class-geodir-cp-settings-cpts.php:50
+#: includes/admin/settings/class-geodir-cp-settings-cpts.php:213
+#: includes/admin/views/html-import-export-post-types.php:109
+msgid "Post Types"
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin-import-export.php:53
+msgid "Custom Fields"
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin-import-export.php:54
+msgid "CPT Tabs"
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin-import-export.php:126
+#, php-format
+msgid ""
+"%d item(s) could not be added due to blank/invalid value for \"post type, "
+"name, singular name, slug\"."
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin-import-export.php:130
+#, php-format
+msgid "%d item(s) could not be added due to blank/invalid data."
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin-import-export.php:186
+msgid "No post type found."
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin-import-export.php:214
+#: includes/admin/class-geodir-cp-admin-import-export.php:808
+#: includes/admin/class-geodir-cp-admin-import-export.php:1414
+msgid ""
+"ERROR: Could not create csv file. This is usually due to inconsistent file "
+"permissions."
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin-import-export.php:343
+#, php-format
+msgid "GD IMPORT POST TYPES [ROW %d]:"
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin-import-export.php:355
+#: includes/admin/class-geodir-cp-admin-import-export.php:375
+#: includes/admin/class-geodir-cp-admin-import-export.php:856
+#: includes/admin/class-geodir-cp-admin-import-export.php:876
+#: includes/admin/class-geodir-cp-admin-import-export.php:1462
+#: includes/admin/class-geodir-cp-admin-import-export.php:1482
+#, php-format
+msgid "Row %d Error: %s"
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin-import-export.php:390
+#: includes/admin/class-geodir-cp-admin-import-export.php:891
+#: includes/admin/class-geodir-cp-admin-import-export.php:1497
+msgid "No data found in csv file."
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin-import-export.php:432
+#, php-format
+msgid "Non GD post type already exists with name %s."
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin-import-export.php:438
+msgid "Invalid or missing post type."
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin-import-export.php:449
+msgid "Invalid or missing post type slug."
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin-import-export.php:454
+#, php-format
+msgid "Post type already exists with slug %s."
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin-import-export.php:476
+msgid "Post type name / singular name is invalid."
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin-import-export.php:631
+msgid "Add New "
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin-import-export.php:632
+msgid "Edit "
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin-import-export.php:633
+msgid "New "
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin-import-export.php:634
+msgid "View "
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin-import-export.php:635
+msgid "Search "
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin-import-export.php:636
+#: includes/admin/class-geodir-cp-admin-import-export.php:637
+msgid "No "
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin-import-export.php:784
+msgid "No custom fields not found."
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin-import-export.php:839
+#, php-format
+msgid "GD IMPORT CUSTOM_FIELDS [ROW %d]:"
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin-import-export.php:1135
+#: includes/admin/class-geodir-cp-admin-import-export.php:1526
+msgid "Invalid post type."
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin-import-export.php:1159
+msgid "Missing or invalid admin title & frontend title."
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin-import-export.php:1390
+msgid "No cpt tab found."
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin-import-export.php:1445
+#, php-format
+msgid "GD IMPORT CPT TABS [ROW %d]:"
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin-import-export.php:1530
+msgid "Missing or invalid tab name."
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin-import-export.php:1714
+msgid "Please select csv file."
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin-import-export.php:1904
+#, php-format
+msgid "Total %d item(s) found."
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin-import-export.php:1904
+#, php-format
+msgid "%d item(s) added."
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin-import-export.php:1904
+#, php-format
+msgid "%d item(s) updated."
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin-import-export.php:1904
+#, php-format
+msgid "%d item(s) skipped due to already exists."
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin-import-export.php:1904
+#, php-format
+msgid "%d item(s) could not be saved due to invalid data."
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin-import-export.php:1904
+#, php-format
+msgid "Please transfer all new images to <b>'%s'</b> folder."
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin-import-export.php:1941
+msgid "Loading fields..."
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin-import-export.php:1972
+msgid "Loading items..."
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin-post-types-list-table.php:59
+#: includes/admin/views/html-import-export-cpt-tabs.php:109
+#: includes/admin/views/html-import-export-custom-fields.php:109
+msgid "Post Type"
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin-post-types-list-table.php:60
+msgid "Name"
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin-post-types-list-table.php:61
+msgid "Slug"
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin-post-types-list-table.php:62
+msgid "Taxonomies"
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin-post-types-list-table.php:63
+msgid "Linked CPTs"
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin-post-types-list-table.php:64
+msgid "Image"
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin-post-types-list-table.php:65
+msgid "Order"
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin-post-types-list-table.php:114
+msgid "Edit"
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin-post-types-list-table.php:116
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin-post-types-list-table.php:118
+#, php-format
+msgid "View \"%s\""
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin-post-types-list-table.php:118
+msgid "View"
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin-post-types-list-table.php:200
+msgid "No post types founds."
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin.php:66
+#: includes/class-geodir-cp-link-posts.php:986
+#, php-format
+msgid "Linked from: %s"
+msgstr ""
+
+#: includes/admin/class-geodir-cp-admin.php:87
+#: includes/class-geodir-cp-link-posts.php:983
+#, php-format
+msgid "Linked to: %s"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-cp-settings-cpts.php:56
+#: includes/admin/settings/class-geodir-cp-settings-cpts.php:191
+#: includes/class-geodir-cp-post-types.php:44
+msgid "Add Post Type"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-cp-settings-cpts.php:155
+msgid "Post type created successfully."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-cp-settings-cpts.php:176
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-cp-settings-cpts.php:217
+msgid "Add New"
+msgstr ""
+
+#: includes/admin/views/html-import-export-cpt-tabs.php:27
+msgid "Import CPT Tabs"
+msgstr ""
+
+#: includes/admin/views/html-import-export-cpt-tabs.php:34
+msgid "If tab already exists"
+msgstr ""
+
+#: includes/admin/views/html-import-export-cpt-tabs.php:35
+msgid ""
+"If the tab exists with id or combination of post_type, tab_name and tab_key "
+"in the CSV, you can either update the tab or it can be skipped."
+msgstr ""
+
+#: includes/admin/views/html-import-export-cpt-tabs.php:41
+#: includes/admin/views/html-import-export-custom-fields.php:41
+#: includes/admin/views/html-import-export-post-types.php:41
+msgid "Skip Row"
+msgstr ""
+
+#: includes/admin/views/html-import-export-cpt-tabs.php:42
+msgid "Update Tab"
+msgstr ""
+
+#: includes/admin/views/html-import-export-cpt-tabs.php:50
+#: includes/admin/views/html-import-export-custom-fields.php:50
+#: includes/admin/views/html-import-export-post-types.php:50
+msgid "Upload CSV File"
+msgstr ""
+
+#: includes/admin/views/html-import-export-cpt-tabs.php:56
+#: includes/admin/views/html-import-export-custom-fields.php:56
+#: includes/admin/views/html-import-export-post-types.php:56
+msgid "Select File"
+msgstr ""
+
+#: includes/admin/views/html-import-export-cpt-tabs.php:67
+#: includes/admin/views/html-import-export-custom-fields.php:67
+#: includes/admin/views/html-import-export-post-types.php:67
+msgid "Select & Upload CSV"
+msgstr ""
+
+#: includes/admin/views/html-import-export-cpt-tabs.php:84
+#: includes/admin/views/html-import-export-custom-fields.php:84
+#: includes/admin/views/html-import-export-post-types.php:84
+msgid "Import Data Status :"
+msgstr ""
+
+#: includes/admin/views/html-import-export-cpt-tabs.php:89
+#: includes/admin/views/html-import-export-custom-fields.php:89
+#: includes/admin/views/html-import-export-post-types.php:89
+msgid "Import Data"
+msgstr ""
+
+#: includes/admin/views/html-import-export-cpt-tabs.php:90
+#: includes/admin/views/html-import-export-custom-fields.php:90
+#: includes/admin/views/html-import-export-post-types.php:90
+msgid "Continue Import Data"
+msgstr ""
+
+#: includes/admin/views/html-import-export-cpt-tabs.php:91
+#: includes/admin/views/html-import-export-custom-fields.php:91
+#: includes/admin/views/html-import-export-post-types.php:91
+msgid "Terminate Import Data"
+msgstr ""
+
+#: includes/admin/views/html-import-export-cpt-tabs.php:92
+#: includes/admin/views/html-import-export-custom-fields.php:92
+#: includes/admin/views/html-import-export-post-types.php:92
+msgid "Wait, processing import data..."
+msgstr ""
+
+#: includes/admin/views/html-import-export-cpt-tabs.php:101
+msgid "Export CPT Tabs"
+msgstr ""
+
+#: includes/admin/views/html-import-export-cpt-tabs.php:110
+#: includes/admin/views/html-import-export-custom-fields.php:110
+#: includes/admin/views/html-import-export-post-types.php:110
+msgid "All"
+msgstr ""
+
+#: includes/admin/views/html-import-export-cpt-tabs.php:123
+msgid "Tabs"
+msgstr ""
+
+#: includes/admin/views/html-import-export-cpt-tabs.php:130
+msgid "Select All Tabs"
+msgstr ""
+
+#: includes/admin/views/html-import-export-cpt-tabs.php:139
+msgid "Deselect All Tabs"
+msgstr ""
+
+#: includes/admin/views/html-import-export-cpt-tabs.php:170
+#: includes/admin/views/html-import-export-custom-fields.php:170
+#: includes/admin/views/html-import-export-post-types.php:125
+msgid "Elapsed Time:"
+msgstr ""
+
+#: includes/admin/views/html-import-export-cpt-tabs.php:173
+#: includes/admin/views/html-import-export-custom-fields.php:173
+#: includes/admin/views/html-import-export-post-types.php:128
+msgid "Export CSV"
+msgstr ""
+
+#: includes/admin/views/html-import-export-custom-fields.php:27
+msgid "Import Custom Fields"
+msgstr ""
+
+#: includes/admin/views/html-import-export-custom-fields.php:34
+msgid "If Field with field_key Exists"
+msgstr ""
+
+#: includes/admin/views/html-import-export-custom-fields.php:35
+msgid ""
+"If the custom field with field_key exists in the CSV, you can either update "
+"the custom field or it can be skipped."
+msgstr ""
+
+#: includes/admin/views/html-import-export-custom-fields.php:42
+msgid "Update Custom Field"
+msgstr ""
+
+#: includes/admin/views/html-import-export-custom-fields.php:101
+msgid "Export Custom Fields"
+msgstr ""
+
+#: includes/admin/views/html-import-export-custom-fields.php:123
+msgid "Fields"
+msgstr ""
+
+#: includes/admin/views/html-import-export-custom-fields.php:130
+msgid "Select All Fields"
+msgstr ""
+
+#: includes/admin/views/html-import-export-custom-fields.php:139
+msgid "Deselect All Fields"
+msgstr ""
+
+#: includes/admin/views/html-import-export-post-types.php:27
+msgid "Import Post Types"
+msgstr ""
+
+#: includes/admin/views/html-import-export-post-types.php:34
+msgid "If Post Type Exists"
+msgstr ""
+
+#: includes/admin/views/html-import-export-post-types.php:35
+msgid ""
+"If the post type exists in the CSV, you can either update the post type or "
+"it can be skipped."
+msgstr ""
+
+#: includes/admin/views/html-import-export-post-types.php:42
+msgid "Update Post Type"
+msgstr ""
+
+#: includes/admin/views/html-import-export-post-types.php:101
+msgid "Export Post Types"
+msgstr ""
+
+#: includes/class-geodir-cp-ajax.php:61
+msgid "Post type deleted successfully."
+msgstr ""
+
+#: includes/class-geodir-cp-ajax.php:64
+msgid "Post type delete failed."
+msgstr ""
+
+#: includes/class-geodir-cp-api.php:59
+msgid "Limit the posts to those a post linked form."
+msgstr ""
+
+#: includes/class-geodir-cp-api.php:67
+msgid "Limit the posts to those a post linked to."
+msgstr ""
+
+#: includes/class-geodir-cp-link-posts.php:141
+msgid "Link Posts:"
+msgstr ""
+
+#: includes/class-geodir-cp-link-posts.php:148
+#, php-format
+msgid "Add a select input to link %s to the %s."
+msgstr ""
+
+#: includes/class-geodir-cp-link-posts.php:154
+#, php-format
+msgid "Select your %s to link with this %s."
+msgstr ""
+
+#: includes/class-geodir-cp-link-posts.php:195
+msgid "Max posts"
+msgstr ""
+
+#: includes/class-geodir-cp-link-posts.php:195
+msgid ""
+"Set max no. of posts allowed to linked to the post. Set 0 or blank to allow "
+"unlimited posts."
+msgstr ""
+
+#: includes/class-geodir-cp-link-posts.php:210
+msgid "Link to all user's posts?"
+msgstr ""
+
+#: includes/class-geodir-cp-link-posts.php:210
+msgid ""
+"Tick to allow link to all posts. Un-tick to link to authors own posts only."
+msgstr ""
+
+#: includes/class-geodir-cp-link-posts.php:273
+#, php-format
+msgid "Choose %s &hellip;"
+msgstr ""
+
+#: includes/class-geodir-cp-link-posts.php:295
+#, php-format
+msgid ""
+"Are you sure you want to fill %s listing data from selected linked %s data?"
+msgstr ""
+
+#: includes/class-geodir-cp-link-posts.php:296
+#, php-format
+msgid "Fill %s listing data from linked %s data."
+msgstr ""
+
+#: includes/class-geodir-cp-link-posts.php:1021
+msgid "You are now allowed to link this listing to the selected listing."
+msgstr ""
+
+#: includes/class-geodir-cp-link-posts.php:1024
+#, php-format
+msgid "%s listing is not allowed to linked from %s listing."
+msgstr ""
+
+#: includes/class-geodir-cp-link-posts.php:1027
+msgid "Invalid post type found to link posts."
+msgstr ""
+
+#: includes/class-geodir-cp-post-types.php:55
+msgid "Disable physical location?"
+msgstr ""
+
+#: includes/class-geodir-cp-post-types.php:56
+msgid ""
+"Tick if post type does not require geographic position/physical location. "
+"All fields will be disabled that related to geographic position/physical "
+"location. <span style=\"color:red;\">(WARNING: this will remove all location "
+"data from the CPT, it can not be recovered after saved.)</span>"
+msgstr ""
+
+#: includes/class-geodir-cp-post-types.php:81
+msgid ""
+"Select which fields are allowed to import for post linking. Leave blank to "
+"disable fields import for this post type."
+msgstr ""
+
+#: includes/class-geodir-cp-post-types.php:86
+msgid "Save post type first to select fields!"
+msgstr ""
+
+#: includes/class-geodir-cp-post-types.php:97
+msgid "Link Posts Settings"
+msgstr ""
+
+#: includes/class-geodir-cp-post-types.php:105
+msgid "Fill data for fields"
+msgstr ""
+
+#: includes/class-geodir-cp-post-types.php:107
+msgid "Select fields&hellip;"
+msgstr ""
+
+#: includes/class-geodir-cp-post-types.php:203
+#, php-format
+msgid "%s Categories"
+msgstr ""
+
+#: includes/class-geodir-cp-post-types.php:204
+#, php-format
+msgid "%s Category"
+msgstr ""
+
+#: includes/class-geodir-cp-post-types.php:205
+#, php-format
+msgid "Search %s Categories"
+msgstr ""
+
+#: includes/class-geodir-cp-post-types.php:206
+#, php-format
+msgid "Popular %s Categories"
+msgstr ""
+
+#: includes/class-geodir-cp-post-types.php:207
+#, php-format
+msgid "All %s Categories"
+msgstr ""
+
+#: includes/class-geodir-cp-post-types.php:208
+#, php-format
+msgid "Edit %s Category"
+msgstr ""
+
+#: includes/class-geodir-cp-post-types.php:209
+#, php-format
+msgid "Update %s Category"
+msgstr ""
+
+#: includes/class-geodir-cp-post-types.php:210
+#, php-format
+msgid "Add New %s Category"
+msgstr ""
+
+#: includes/class-geodir-cp-post-types.php:211
+#, php-format
+msgid "New %s Category"
+msgstr ""
+
+#: includes/class-geodir-cp-post-types.php:212
+#, php-format
+msgid "Add or remove %s categories"
+msgstr ""
+
+#: includes/class-geodir-cp-post-types.php:237
+#, php-format
+msgid "%s Tags"
+msgstr ""
+
+#: includes/class-geodir-cp-post-types.php:238
+#, php-format
+msgid "%s Tag"
+msgstr ""
+
+#: includes/class-geodir-cp-post-types.php:239
+#, php-format
+msgid "Search %s Tags"
+msgstr ""
+
+#: includes/class-geodir-cp-post-types.php:240
+#, php-format
+msgid "Popular %s Tags"
+msgstr ""
+
+#: includes/class-geodir-cp-post-types.php:241
+#, php-format
+msgid "All %s Tags"
+msgstr ""
+
+#: includes/class-geodir-cp-post-types.php:242
+#, php-format
+msgid "Edit %s Tag"
+msgstr ""
+
+#: includes/class-geodir-cp-post-types.php:243
+#, php-format
+msgid "Update %s Tag"
+msgstr ""
+
+#: includes/class-geodir-cp-post-types.php:244
+#, php-format
+msgid "Add New %s Tag"
+msgstr ""
+
+#: includes/class-geodir-cp-post-types.php:245
+#, php-format
+msgid "New %s Tag Name"
+msgstr ""
+
+#: includes/class-geodir-cp-post-types.php:246
+#, php-format
+msgid "Add or remove %s tags"
+msgstr ""
+
+#: includes/class-geodir-cp-post-types.php:247
+#, php-format
+msgid "Choose from the most used %s tags"
+msgstr ""
+
+#: includes/class-geodir-cp-post-types.php:248
+#, php-format
+msgid "Separate %s tags with commas"
+msgstr ""
+
+#: includes/class-geodir-cp-widgets.php:37
+msgid "Linked Posts"
+msgstr ""
+
+#: includes/class-geodir-cp-widgets.php:38
+msgid "Filter posts linked from or linked to current post."
+msgstr ""
+
+#: includes/class-geodir-cp-widgets.php:40
+msgid "No filter"
+msgstr ""
+
+#: includes/class-geodir-cp-widgets.php:41
+msgid "Linked from current post"
+msgstr ""
+
+#: includes/class-geodir-cp-widgets.php:42
+msgid "Linked to current post"
+msgstr ""
+
+#: includes/class-geodir-cp-widgets.php:47
+#: includes/class-geodir-cp-widgets.php:58
+msgid "Filters"
+msgstr ""
+
+#: includes/class-geodir-cp-widgets.php:52
+msgid "Linked Post ID"
+msgstr ""
+
+#: includes/class-geodir-cp-widgets.php:53
+msgid ""
+"Filter posts linked from or linked to this post id. Leave blank to use "
+"current post id."
+msgstr ""
+
+#: includes/class-geodir-cp-widgets.php:54
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:53
+msgid "Leave blank to use current post id."
+msgstr ""
+
+#: includes/class-geodir-cp.php:148
+msgid ""
+"Your version of PHP is below the minimum version of PHP required by "
+"GeoDirectory Custom Post Types. Please contact your host and request that "
+"your version be upgraded to 5.3 or later."
+msgstr ""
+
+#: includes/core-functions.php:177
+msgid "Post type related data deleted successfully."
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-cpt-listings.php:33
+msgid "GD > CPT Listings"
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-cpt-listings.php:36
+msgid "Displays GeoDirectory post types."
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-cpt-listings.php:53
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:43
+msgid "Title:"
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-cpt-listings.php:54
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:44
+msgid "The widget title."
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-cpt-listings.php:61
+msgid "Exclude CPT:"
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-cpt-listings.php:62
+msgid "Tick CPTs to hide from list."
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-cpt-listings.php:71
+msgid "Display:"
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-cpt-listings.php:72
+msgid "Select display type."
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-cpt-listings.php:75
+msgid "Default (image & name)"
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-cpt-listings.php:76
+msgid "Image only"
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-cpt-listings.php:77
+msgid "Name only"
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-cpt-listings.php:84
+msgid "Image Width:"
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-cpt-listings.php:85
+msgid "CPT image width. Ex: 90px, 25%, auto"
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-cpt-listings.php:93
+msgid "Image Height:"
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-cpt-listings.php:94
+msgid "CPT image height. Ex: 90px, 25%, auto"
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-cpt-listings.php:105
+msgid "Card Height:"
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-cpt-listings.php:106
+msgid "Card height. Ex: 150"
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-cpt-listings.php:112
+#: includes/widgets/class-geodir-cp-widget-cpt-listings.php:119
+#: includes/widgets/class-geodir-cp-widget-cpt-listings.php:128
+#: includes/widgets/class-geodir-cp-widget-cpt-listings.php:137
+#: includes/widgets/class-geodir-cp-widget-cpt-listings.php:158
+#: includes/widgets/class-geodir-cp-widget-cpt-listings.php:176
+#: includes/widgets/class-geodir-cp-widget-cpt-listings.php:190
+#: includes/widgets/class-geodir-cp-widget-cpt-listings.php:206
+#: includes/widgets/class-geodir-cp-widget-cpt-listings.php:217
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:144
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:162
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:176
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:192
+msgid "Card Design"
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-cpt-listings.php:144
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:130
+msgid "Card row gap"
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-cpt-listings.php:145
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:131
+msgid "This adjusts the spacing between the cards horizontally."
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-cpt-listings.php:148
+#: includes/widgets/class-geodir-cp-widget-cpt-listings.php:166
+#: includes/widgets/class-geodir-cp-widget-cpt-listings.php:184
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:134
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:152
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:170
+msgid "Default"
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-cpt-listings.php:162
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:148
+msgid "Card column gap"
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-cpt-listings.php:163
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:149
+msgid "This adjusts the spacing between the cards vertically."
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-cpt-listings.php:180
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:166
+msgid "Card border"
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-cpt-listings.php:181
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:167
+msgid "Set the border style for the card."
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-cpt-listings.php:185
+#: includes/widgets/class-geodir-cp-widget-cpt-listings.php:198
+#: includes/widgets/class-geodir-cp-widget-cpt-listings.php:213
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:171
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:184
+msgid "None"
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-cpt-listings.php:194
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:180
+msgid "Card shadow"
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-cpt-listings.php:195
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:181
+msgid "Set the card shadow style."
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-cpt-listings.php:199
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:185
+msgid "Small"
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-cpt-listings.php:200
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:186
+msgid "Medium"
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-cpt-listings.php:201
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:187
+msgid "Large"
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-cpt-listings.php:211
+msgid "Text color"
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:23
+msgid "GD > Linked Posts"
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:26
+msgid ""
+"Displays the linked posts. Note: This widget will be removed in future, use "
+"GD > GD Listings widget to show linked posts."
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:52
+msgid "Post ID:"
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:60
+msgid "Link Type:"
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:61
+msgid "The type of link to show."
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:64
+msgid "Linked to"
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:65
+msgid "Linked from"
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:72
+msgid "Post Type:"
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:73
+msgid "The custom post type to show by default."
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:75
+msgid "Auto (same as current post)"
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:81
+msgid "Sort by:"
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:82
+msgid "How the listings should be sorted."
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:90
+msgid "Title tag:"
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:91
+msgid "The title tag used for the listings."
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:94
+msgid "h3 (default)"
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:95
+msgid "h2 (if main content of page)"
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:102
+msgid "Layout:"
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:103
+msgid "How the listings should laid out by default."
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:111
+msgid "Posts to show:"
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:112
+msgid "The number of posts to show by default."
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:119
+msgid "Show view all link?"
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:224
+msgid "Elementor Skin"
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:231
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:241
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:250
+msgid "Design"
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:235
+msgid "Skin column gap"
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:236
+msgid "The px value for the column gap."
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:244
+msgid "Skin row gap"
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:245
+msgid "The px value for the row gap."
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:571
+msgid ""
+"This preview shows all content items to give an idea of layout. Dummy data "
+"is used in places."
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:622
+#, php-format
+msgid "View %s's all %s"
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:624
+#, php-format
+msgid "View all %s in %s"
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:679
+msgid "A-Z"
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:680
+msgid "Latest"
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:681
+msgid "Most reviews"
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:682
+msgid "Highest rating"
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:683
+msgid "Random"
+msgstr ""
+
+#: includes/widgets/class-geodir-cp-widget-post-linked.php:684
+msgid "Distance to current post (details page only)"
+msgstr ""

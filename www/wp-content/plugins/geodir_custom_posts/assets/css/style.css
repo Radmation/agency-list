@@ -1,0 +1,66 @@
+.geodir_form_row select.geodir-select-search-post {
+    width: calc(70% - 1px);
+}
+.gd-wgt-cpt-list {
+	background: white;
+	margin: 0;
+	min-height: 50px;
+	white-space: normal;
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+.gd-cpt-list-row {
+    padding: 1px;
+    display: inline-block;
+    vertical-align: top;
+    color: black;
+}
+.gd-cpt-list-row:hover .gd-cpt-list-link {
+    border: 1px solid #e5e5e5;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+.gd-cpt-list-link {
+    display: inline-block;
+    text-align: center;
+    outline: none;
+	border: 1px solid transparent;
+	padding: 3px 5px 5px 5px;
+	width: 100%;
+}
+.gd-cpt-list-link .gd-cpt-list-img {
+    display: inline-block;
+    vertical-align: middle;
+	text-align: center;
+	padding: 3px 5px 5px 5px;
+	width: 100%;
+	overflow: hidden;
+}
+.gd-cpt-list-img img {
+	max-height: 100%;
+	max-width: 100%;
+}
+.gd-cpt-list-name {
+    text-align: center;
+	display: block;
+    line-height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.gd-link_posts-row {
+	position: relative;
+}
+
+.geodir-fill-data {
+	font-size: 125%;
+	position: absolute;
+	right: .65em;
+	cursor: pointer;
+}
+
+.geodir-fill-data:hover {
+	color: #444;
+}

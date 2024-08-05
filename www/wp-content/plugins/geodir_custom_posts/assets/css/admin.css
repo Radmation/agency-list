@@ -1,0 +1,42 @@
+.geodir_form_row select.geodir-select-search-post {
+    width: calc(70% - 1px);
+}
+
+.wp-list-table.gd-cpts .check-column {
+	padding: 10px 0;
+	vertical-align: top;
+	text-align: center;
+	width: 39px;
+}
+.wp-list-table.gd-cpts .check-column img {
+	max-height: 30px;
+	max-width: 30px;
+}
+.gd-cpts .column-slug {
+	width: auto
+}
+.gd-cpts .column-taxonomies {
+	width: 250px
+}
+.gd-cpts .column-image {
+    width: 80px;
+    text-align: center;
+}
+.gd-cpts .column-order {
+	width: 90px
+}
+
+.gd-link_posts-row {
+	position: relative;
+}
+
+.geodir-fill-data {
+	font-size: 125%;
+	position: absolute;
+	right: .65em;
+	cursor: pointer;
+}
+
+.geodir-fill-data:hover {
+	color: #444;
+}

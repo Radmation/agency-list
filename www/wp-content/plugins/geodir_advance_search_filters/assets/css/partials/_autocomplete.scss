@@ -1,0 +1,39 @@
+// adjust lower for search near input
+.gd_search_text + .gdas-search-suggestions{
+  top: 38px;
+}
+
+.gdas-search-suggestions{
+
+  .gdasac-icon{
+    margin: 0px 0px 0px -10px;
+    width: 30px;
+    overflow: hidden;
+    display: inline-table;
+    text-align: center;
+  }
+
+  .gdas-section-title {
+    background-color: #f5f5f5;
+    &:hover{
+      background-color: #f5f5f5;
+      cursor: default;
+    }
+  }
+  .gdasac-listing{
+    .gdasac-icon{
+      img{
+        vertical-align: middle;
+      }
+    }
+  }
+
+  .gdasac-category{
+  }
+  .gdasac-cat-icon,.gdasac-listing-icon{
+
+  }
+
+
+}
+

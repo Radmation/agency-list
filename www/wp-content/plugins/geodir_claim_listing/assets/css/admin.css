@@ -1,0 +1,11 @@
+.geodir-claims-list .wp-list-table.claims th#full_details,
+.geodir-claims-list .wp-list-table.claims th#status  {
+    width: 90px;
+}
+.geodir-claims-list .wp-list-table.claims th#user_id ,
+.geodir-claims-list .wp-list-table.claims th#author_id  {
+    width: 110px;
+}
+.geodir-claims-list .wp-list-table .column-full_details {
+    text-align: center;
+}

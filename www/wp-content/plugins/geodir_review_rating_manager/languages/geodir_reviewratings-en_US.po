@@ -1,0 +1,817 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GeoDirectory Review Rating Manager 2.3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-27 19:37+0530\n"
+"PO-Revision-Date: 2023-04-27 19:37+0530\n"
+"Last-Translator: Stiofan <info@geotheme.com>\n"
+"Language-Team: AyeCode Ltd <contact@ayecode.io>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2;_n_noop:1,2;"
+"_nx:1,2;esc_attr_e;esc_attr__\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-geodir-review-rating-manager-admin.php:124
+msgid "Individual ratings"
+msgstr ""
+
+#: admin/class-geodir-review-rating-manager-admin.php:127
+msgid "Images"
+msgstr ""
+
+#: admin/class-geodir-review-rating-reviews-table-list.php:32
+msgid "Author"
+msgstr ""
+
+#: admin/class-geodir-review-rating-reviews-table-list.php:33
+msgid "Comment"
+msgstr ""
+
+#: admin/class-geodir-review-rating-reviews-table-list.php:34
+msgid "In Response To"
+msgstr ""
+
+#: admin/class-geodir-review-rating-reviews-table-list.php:35
+msgid "Submitted On"
+msgstr ""
+
+#: admin/class-geodir-review-rating-reviews-table-list.php:62
+#: admin/class-geodir-review-rating-styles-table-list.php:62
+#: admin/class-geodir-review-ratings-table-list.php:66
+#: admin/views/html-add-edit-style.php:111
+msgid "Rating icon"
+msgstr ""
+
+#: admin/class-geodir-review-rating-reviews-table-list.php:70
+#: admin/class-geodir-review-rating-styles-table-list.php:76
+msgid "Edit style"
+msgstr ""
+
+#: admin/class-geodir-review-rating-reviews-table-list.php:75
+#: admin/class-geodir-review-rating-styles-table-list.php:81
+msgid "Delete style"
+msgstr ""
+
+#: admin/class-geodir-review-rating-reviews-table-list.php:88
+#: admin/class-geodir-review-rating-styles-table-list.php:94
+#: admin/class-geodir-review-ratings-table-list.php:134
+msgid "Delete"
+msgstr ""
+
+#: admin/class-geodir-review-rating-reviews-table-list.php:166
+#: admin/settings/class-geodir-reviews-fields-settings.php:36
+msgid "All"
+msgstr ""
+
+#: admin/class-geodir-review-rating-reviews-table-list.php:167
+#: admin/settings/class-geodir-reviews-fields-settings.php:37
+msgid "Pending"
+msgstr ""
+
+#: admin/class-geodir-review-rating-reviews-table-list.php:168
+#: admin/settings/class-geodir-reviews-fields-settings.php:38
+msgid "Approved"
+msgstr ""
+
+#: admin/class-geodir-review-rating-reviews-table-list.php:169
+#: admin/settings/class-geodir-reviews-fields-settings.php:39
+#: admin/settings/class-geodir-reviews-fields-settings.php:198
+#: admin/settings/class-geodir-reviews-fields-settings.php:202
+#: admin/settings/class-geodir-reviews-fields-settings.php:213
+#: includes/class-geodir-review-rating-template.php:204
+#: includes/class-geodir-review-rating-template.php:212
+msgid "Spam"
+msgstr ""
+
+#: admin/class-geodir-review-rating-reviews-table-list.php:170
+#: admin/settings/class-geodir-reviews-fields-settings.php:40
+#: admin/settings/class-geodir-reviews-fields-settings.php:199
+#: admin/settings/class-geodir-reviews-fields-settings.php:203
+#: admin/settings/class-geodir-reviews-fields-settings.php:214
+#: includes/class-geodir-review-rating-template.php:205
+#: includes/class-geodir-review-rating-template.php:213
+msgid "Trash"
+msgstr ""
+
+#: admin/class-geodir-review-rating-styles-table-list.php:32
+msgid "Style Title"
+msgstr ""
+
+#: admin/class-geodir-review-rating-styles-table-list.php:33
+msgid "Rating Text"
+msgstr ""
+
+#: admin/class-geodir-review-rating-styles-table-list.php:34
+msgid "Icon / Image"
+msgstr ""
+
+#: admin/class-geodir-review-rating-styles-table-list.php:35
+msgid "Max Rating"
+msgstr ""
+
+#: admin/class-geodir-review-rating-styles-table-list.php:36
+msgid "Default"
+msgstr ""
+
+#: admin/class-geodir-review-rating-styles-table-list.php:37
+#: admin/class-geodir-review-ratings-table-list.php:38
+msgid "Actions"
+msgstr ""
+
+#: admin/class-geodir-review-rating-styles-table-list.php:50
+#: admin/class-geodir-review-ratings-table-list.php:52
+#, php-format
+msgid "ID: %d"
+msgstr ""
+
+#: admin/class-geodir-review-rating-styles.php:50
+#: admin/settings/class-geodir-review-rating-manager-settings.php:75
+msgid "Rating Styles"
+msgstr ""
+
+#: admin/class-geodir-review-rating-styles.php:50
+#: admin/class-geodir-review-ratings.php:52
+msgid "Add New"
+msgstr ""
+
+#: admin/class-geodir-review-rating-styles.php:60
+msgid "Search style"
+msgstr ""
+
+#: admin/class-geodir-review-rating-styles.php:82
+#: admin/class-geodir-review-ratings.php:85
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: admin/class-geodir-review-rating-styles.php:126
+#, php-format
+msgid "%d rating styles deleted successfully."
+msgstr ""
+
+#: admin/class-geodir-review-rating-styles.php:126
+#: includes/class-geodir-review-rating-ajax.php:289
+msgid "Rating style deleted successfully."
+msgstr ""
+
+#: admin/class-geodir-review-rating-styles.php:128
+msgid "No style deleted."
+msgstr ""
+
+#: admin/class-geodir-review-ratings-table-list.php:32
+msgid "Rating Title"
+msgstr ""
+
+#: admin/class-geodir-review-ratings-table-list.php:33
+msgid "Rating Style"
+msgstr ""
+
+#: admin/class-geodir-review-ratings-table-list.php:34
+msgid "Rating Image"
+msgstr ""
+
+#: admin/class-geodir-review-ratings-table-list.php:35
+msgid "Post Types"
+msgstr ""
+
+#: admin/class-geodir-review-ratings-table-list.php:36
+msgid "Categories"
+msgstr ""
+
+#: admin/class-geodir-review-ratings-table-list.php:37
+#: admin/views/html-add-edit-ratings.php:62
+msgid "Display Order"
+msgstr ""
+
+#: admin/class-geodir-review-ratings-table-list.php:116
+msgid "Edit rating"
+msgstr ""
+
+#: admin/class-geodir-review-ratings-table-list.php:121
+msgid "Delete rating"
+msgstr ""
+
+#: admin/class-geodir-review-ratings.php:52
+#: admin/settings/class-geodir-review-rating-manager-settings.php:76
+#: admin/settings/class-geodir-review-rating-manager-settings.php:130
+msgid "Ratings"
+msgstr ""
+
+#: admin/class-geodir-review-ratings.php:62
+msgid "Search rating"
+msgstr ""
+
+#: admin/class-geodir-review-ratings.php:129
+#, php-format
+msgid "%d rating items deleted successfully."
+msgstr ""
+
+#: admin/class-geodir-review-ratings.php:129
+#: includes/class-geodir-review-rating-ajax.php:265
+msgid "Rating item deleted successfully."
+msgstr ""
+
+#: admin/class-geodir-review-ratings.php:131
+msgid "No rating deleted."
+msgstr ""
+
+#: admin/settings/class-geodir-review-rating-manager-settings.php:15
+msgid "Multiratings"
+msgstr ""
+
+#: admin/settings/class-geodir-review-rating-manager-settings.php:74
+msgid "General"
+msgstr ""
+
+#: admin/settings/class-geodir-review-rating-manager-settings.php:115
+msgid "Create Ratings"
+msgstr ""
+
+#: admin/settings/class-geodir-review-rating-manager-settings.php:156
+msgid "Manage Rating Styles"
+msgstr ""
+
+#: admin/settings/class-geodir-review-rating-manager-settings.php:170
+#: admin/views/html-add-edit-style.php:20
+msgid "Add Rating Style"
+msgstr ""
+
+#: admin/settings/class-geodir-review-rating-manager-settings.php:186
+msgid "Review Rating Settings"
+msgstr ""
+
+#: admin/settings/class-geodir-review-rating-manager-settings.php:192
+msgid "Enable multiratings"
+msgstr ""
+
+#: admin/settings/class-geodir-review-rating-manager-settings.php:193
+msgid "Enable multiratings on listings."
+msgstr ""
+
+#: admin/settings/class-geodir-review-rating-manager-settings.php:199
+msgid "Enable comment images upload"
+msgstr ""
+
+#: admin/settings/class-geodir-review-rating-manager-settings.php:200
+msgid "Enable upload images in comments for a post."
+msgstr ""
+
+#: admin/settings/class-geodir-review-rating-manager-settings.php:206
+msgid "Enable optional multiratings"
+msgstr ""
+
+#: admin/settings/class-geodir-review-rating-manager-settings.php:207
+msgid "Enable multiratings as optional."
+msgstr ""
+
+#: admin/settings/class-geodir-review-rating-manager-settings.php:213
+msgid "Comment images limit"
+msgstr ""
+
+#: admin/settings/class-geodir-review-rating-manager-settings.php:214
+msgid "Limit number of uploaded images in comments for a post."
+msgstr ""
+
+#: admin/settings/class-geodir-review-rating-manager-settings.php:221
+msgid "Enable review on comments"
+msgstr ""
+
+#: admin/settings/class-geodir-review-rating-manager-settings.php:222
+msgid "Let's users rate comments useful or not."
+msgstr ""
+
+#: admin/settings/class-geodir-review-rating-manager-settings.php:228
+msgid "Enable comment list sorting"
+msgstr ""
+
+#: admin/settings/class-geodir-review-rating-manager-settings.php:229
+msgid "Enable comment list sorting."
+msgstr ""
+
+#: admin/settings/class-geodir-review-rating-manager-settings.php:355
+msgid "Review Rating Manager"
+msgstr ""
+
+#: admin/settings/class-geodir-review-rating-manager-settings.php:356
+msgid ""
+"Check this box if you would like to completely remove all of its data when "
+"Review Rating Manager is deleted."
+msgstr ""
+
+#: admin/settings/class-geodir-reviews-fields-settings.php:15
+msgid "Reviews"
+msgstr ""
+
+#: admin/settings/class-geodir-reviews-fields-settings.php:78
+msgid "Trashed Reviews"
+msgstr ""
+
+#: admin/settings/class-geodir-reviews-fields-settings.php:90
+msgid "Spammed Reviews"
+msgstr ""
+
+#: admin/settings/class-geodir-reviews-fields-settings.php:103
+msgid "Approved Reviews"
+msgstr ""
+
+#: admin/settings/class-geodir-reviews-fields-settings.php:116
+msgid "Pending Reviews"
+msgstr ""
+
+#: admin/settings/class-geodir-reviews-fields-settings.php:128
+msgid "All Reviews"
+msgstr ""
+
+#: admin/settings/class-geodir-reviews-fields-settings.php:197
+#: admin/settings/class-geodir-reviews-fields-settings.php:211
+#: includes/class-geodir-review-rating-template.php:203
+msgid "Approve"
+msgstr ""
+
+#: admin/settings/class-geodir-reviews-fields-settings.php:201
+#: admin/settings/class-geodir-reviews-fields-settings.php:212
+#: includes/class-geodir-review-rating-template.php:211
+msgid "Unapprove"
+msgstr ""
+
+#: admin/settings/class-geodir-reviews-fields-settings.php:205
+#: includes/class-geodir-review-rating-template.php:219
+msgid "Not Spam"
+msgstr ""
+
+#: admin/settings/class-geodir-reviews-fields-settings.php:206
+#: admin/settings/class-geodir-reviews-fields-settings.php:209
+#: includes/class-geodir-review-rating-template.php:220
+#: includes/class-geodir-review-rating-template.php:226
+msgid "Delete Permanently"
+msgstr ""
+
+#: admin/settings/class-geodir-reviews-fields-settings.php:208
+#: includes/class-geodir-review-rating-template.php:225
+msgid "Restore"
+msgstr ""
+
+#: admin/settings/class-geodir-reviews-fields-settings.php:232
+msgid "Show all post types"
+msgstr ""
+
+#: admin/settings/class-geodir-reviews-fields-settings.php:246
+msgid "Sort :"
+msgstr ""
+
+#: admin/settings/class-geodir-reviews-fields-settings.php:248
+msgid "Newest"
+msgstr ""
+
+#: admin/settings/class-geodir-reviews-fields-settings.php:249
+#: public/class-geodir-review-rating-manager-public.php:748
+msgid "Oldest"
+msgstr ""
+
+#: admin/settings/class-geodir-reviews-fields-settings.php:250
+msgid "Lowest rating"
+msgstr ""
+
+#: admin/settings/class-geodir-reviews-fields-settings.php:251
+msgid "Highest rating"
+msgstr ""
+
+#: admin/settings/class-geodir-reviews-fields-settings.php:255
+msgid "Filter"
+msgstr ""
+
+#: admin/settings/class-geodir-reviews-fields-settings.php:304
+msgid "Items"
+msgstr ""
+
+#: admin/settings/class-geodir-reviews-fields-settings.php:307
+msgid "Go to the first page"
+msgstr ""
+
+#: admin/settings/class-geodir-reviews-fields-settings.php:311
+msgid "Go to the previous page"
+msgstr ""
+
+#: admin/settings/class-geodir-reviews-fields-settings.php:315
+msgid "of"
+msgstr ""
+
+#: admin/settings/class-geodir-reviews-fields-settings.php:319
+msgid "Go to the next page"
+msgstr ""
+
+#: admin/settings/class-geodir-reviews-fields-settings.php:323
+msgid "Go to the last page"
+msgstr ""
+
+#: admin/views/html-add-edit-ratings.php:17
+msgid "Add Rating"
+msgstr ""
+
+#: admin/views/html-add-edit-ratings.php:19
+msgid "Edit Rating:"
+msgstr ""
+
+#: admin/views/html-add-edit-ratings.php:27
+msgid "Select multirating style"
+msgstr ""
+
+#: admin/views/html-add-edit-ratings.php:38
+msgid "Rating title"
+msgstr ""
+
+#: admin/views/html-add-edit-ratings.php:47
+msgid "Showing method"
+msgstr ""
+
+#: admin/views/html-add-edit-ratings.php:51
+msgid "Show Stars"
+msgstr ""
+
+#: admin/views/html-add-edit-ratings.php:52
+msgid "Show Dropdown"
+msgstr ""
+
+#: admin/views/html-add-edit-ratings.php:76
+msgid "Select post type"
+msgstr ""
+
+#: admin/views/html-add-edit-ratings.php:107
+#, php-format
+msgid "Select %s Categories..."
+msgstr ""
+
+#: admin/views/html-add-edit-ratings.php:144
+msgid "Save Rating"
+msgstr ""
+
+#: admin/views/html-add-edit-style.php:22
+msgid "Edit Rating Style:"
+msgstr ""
+
+#: admin/views/html-add-edit-style.php:39
+msgid "Title"
+msgstr ""
+
+#: admin/views/html-add-edit-style.php:51
+msgid "Rating score (default 5)"
+msgstr ""
+
+#: admin/views/html-add-edit-style.php:77
+#, php-format
+msgid "%d Star Text"
+msgstr ""
+
+#: admin/views/html-add-edit-style.php:99
+msgid "Rating type"
+msgstr ""
+
+#: admin/views/html-add-edit-style.php:102
+msgid "Font Awesome"
+msgstr ""
+
+#: admin/views/html-add-edit-style.php:103
+msgid "Transparent Image"
+msgstr ""
+
+#: admin/views/html-add-edit-style.php:125
+msgid "Rating image"
+msgstr ""
+
+#: admin/views/html-add-edit-style.php:135
+msgid "Rating color"
+msgstr ""
+
+#: admin/views/html-add-edit-style.php:143
+msgid "Rating color off"
+msgstr ""
+
+#: admin/views/html-add-edit-style.php:162
+msgid "Save Style"
+msgstr ""
+
+#: gd_update.php:16
+#, php-format
+msgid ""
+"The plugin %sWP Easy Updates%s is required to check for and update some "
+"installed plugins, please install it now."
+msgstr ""
+
+#: geodir_review_rating_manager.php:58
+#, php-format
+msgid "%s requires %sGeoDirectory%s plugin to be installed and active."
+msgstr ""
+
+#: includes/class-geodir-review-rating-ajax.php:107
+msgid "Style already exists!"
+msgstr ""
+
+#: includes/class-geodir-review-rating-ajax.php:241
+msgid "Requested style does not exists!"
+msgstr ""
+
+#: includes/class-geodir-review-rating-ajax.php:246
+msgid "Default style set successfully."
+msgstr ""
+
+#: includes/class-geodir-review-rating-api.php:88
+msgid "The ratings for the object."
+msgstr ""
+
+#: includes/class-geodir-review-rating-api.php:97
+msgid "Ratings for the object, as it exists in the database."
+msgstr ""
+
+#: includes/class-geodir-review-rating-api.php:102
+msgid "Ratings array for the object, transformed for display."
+msgstr ""
+
+#: includes/class-geodir-review-rating-api.php:116
+msgid "The images for the object."
+msgstr ""
+
+#: includes/class-geodir-review-rating-api.php:125
+msgid "Images for the object, as it exists in the database."
+msgstr ""
+
+#: includes/class-geodir-review-rating-api.php:130
+msgid "Images array for the object, transformed for display."
+msgstr ""
+
+#: includes/class-geodir-review-rating-api.php:143
+msgid "Total number of images attached with the review."
+msgstr ""
+
+#: includes/class-geodir-review-rating-api.php:156
+msgid "Number of likes for the reviews."
+msgstr ""
+
+#: includes/class-geodir-review-rating-privacy.php:17
+msgid "GeoDirectory Review Rating Manager"
+msgstr ""
+
+#: includes/class-geodir-review-rating-privacy.php:20
+#: includes/class-geodir-review-rating-privacy.php:24
+#: includes/class-geodir-review-rating-privacy.php:153
+msgid "GeoDirectory Comment Likes"
+msgstr ""
+
+#: includes/class-geodir-review-rating-privacy.php:66
+msgid "Not rated"
+msgstr ""
+
+#: includes/class-geodir-review-rating-privacy.php:68
+#: includes/class-geodir-review-rating-privacy.php:100
+#, php-format
+msgid "Rating (%s)"
+msgstr ""
+
+#: includes/class-geodir-review-rating-privacy.php:115
+msgid "Review Images"
+msgstr ""
+
+#: includes/class-geodir-review-rating-privacy.php:231
+#, php-format
+msgid ""
+"Comment like item %d contains personal data but could not be anonymized."
+msgstr ""
+
+#: includes/class-geodir-review-rating-privacy.php:296
+msgid "Comment ID"
+msgstr ""
+
+#: includes/class-geodir-review-rating-privacy.php:297
+msgid "User IP"
+msgstr ""
+
+#: includes/class-geodir-review-rating-privacy.php:298
+msgid "Like Date"
+msgstr ""
+
+#: includes/class-geodir-review-rating-privacy.php:299
+msgid "User Agent"
+msgstr ""
+
+#: includes/class-geodir-review-rating-template.php:233
+#: includes/class-geodir-review-rating.php:185
+msgid "Show Multi Ratings"
+msgstr ""
+
+#: includes/class-geodir-review-rating-template.php:237
+#: includes/class-geodir-review-rating.php:183
+msgid "Show Images"
+msgstr ""
+
+#: includes/class-geodir-review-rating-template.php:257
+msgid "Submitted on:"
+msgstr ""
+
+#: includes/class-geodir-review-rating.php:174
+msgid "Please enter"
+msgstr ""
+
+#: includes/class-geodir-review-rating.php:175
+msgid "Star Text"
+msgstr ""
+
+#: includes/class-geodir-review-rating.php:176
+msgid "Are you sure you want to delete this?"
+msgstr ""
+
+#: includes/class-geodir-review-rating.php:177
+msgid "Please select"
+msgstr ""
+
+#: includes/class-geodir-review-rating.php:178
+msgid "Categories."
+msgstr ""
+
+#: includes/class-geodir-review-rating.php:179
+msgid "Please select Post Type."
+msgstr ""
+
+#: includes/class-geodir-review-rating.php:180
+msgid "Please enter rating title."
+msgstr ""
+
+#: includes/class-geodir-review-rating.php:181
+msgid "Please Select multirating style."
+msgstr ""
+
+#: includes/class-geodir-review-rating.php:182
+msgid "Hide Images"
+msgstr ""
+
+#: includes/class-geodir-review-rating.php:184
+msgid "Hide Multi Ratings"
+msgstr ""
+
+#: includes/class-geodir-review-rating.php:186
+msgid "Are you sure you want to delete this image?"
+msgstr ""
+
+#: includes/class-geodir-review-rating.php:187
+msgid "Please enter below"
+msgstr ""
+
+#: includes/class-geodir-review-rating.php:188
+msgid "Please enter above"
+msgstr ""
+
+#: includes/class-geodir-review-rating.php:189
+msgid "Please enter only numeric value"
+msgstr ""
+
+#: includes/class-geodir-review-rating.php:190
+msgid "You are create maximum seven star rating"
+msgstr ""
+
+#: includes/class-geodir-review-rating.php:191
+msgid "Your input box number and number of star is not same"
+msgstr ""
+
+#: includes/class-geodir-review-rating.php:192
+msgid "Your input box number and number of Score text is not same"
+msgstr ""
+
+#: includes/class-geodir-review-rating.php:193
+msgid "Please select rating off image."
+msgstr ""
+
+#: includes/class-geodir-review-rating.php:196
+msgid "Please type a review."
+msgstr ""
+
+#: includes/class-geodir-review-rating.php:197
+msgid "Please type a reply."
+msgstr ""
+
+#: includes/general-functions.php:212
+msgid "-- Select multirating style --"
+msgstr ""
+
+#: public/class-geodir-review-rating-manager-public.php:32
+msgid "Overall"
+msgstr ""
+
+#: public/class-geodir-review-rating-manager-public.php:105
+msgid "Allowed Files"
+msgstr ""
+
+#: public/class-geodir-review-rating-manager-public.php:126
+#, php-format
+msgid "You have reached your upload limit of %s images."
+msgstr ""
+
+#: public/class-geodir-review-rating-manager-public.php:127
+#, php-format
+msgid "You may only upload total %s images."
+msgstr ""
+
+#: public/class-geodir-review-rating-manager-public.php:128
+#, php-format
+msgid "You may only upload another %s images."
+msgstr ""
+
+#: public/class-geodir-review-rating-manager-public.php:129
+#, php-format
+msgid "File size error : You tried to upload an image over %s"
+msgstr ""
+
+#: public/class-geodir-review-rating-manager-public.php:130
+#, php-format
+msgid "File type error. Allowed image types: %s"
+msgstr ""
+
+#: public/class-geodir-review-rating-manager-public.php:131
+msgid "Remove"
+msgstr ""
+
+#: public/class-geodir-review-rating-manager-public.php:747
+msgid "Latest"
+msgstr ""
+
+#: public/class-geodir-review-rating-manager-public.php:749
+msgid "Lowest Rating"
+msgstr ""
+
+#: public/class-geodir-review-rating-manager-public.php:750
+msgid "Highest Rating"
+msgstr ""
+
+#: public/class-geodir-review-rating-manager-public.php:803
+msgid "Least Images"
+msgstr ""
+
+#: public/class-geodir-review-rating-manager-public.php:804
+msgid "Highest Images"
+msgstr ""
+
+#: public/class-geodir-review-rating-manager-public.php:808
+msgid "Lowest Reviews"
+msgstr ""
+
+#: public/class-geodir-review-rating-manager-public.php:809
+msgid "Highest Reviews"
+msgstr ""
+
+#: public/class-geodir-review-rating-manager-public.php:1138
+msgid "Rating style"
+msgstr ""
+
+#: public/class-geodir-review-rating-manager-public.php:1139
+msgid "Rating category"
+msgstr ""
+
+#: public/class-geodir-review-rating-manager-public.php:1140
+msgid "Comment image"
+msgstr ""
+
+#: public/class-geodir-review-rating-manager-public.php:1141
+msgid "Comment reviews"
+msgstr ""
+
+#: templates/bootstrap/comment-like.php:21 templates/legacy/comment-like.php:20
+msgid "You must be logged-in to like a review comment."
+msgstr ""
+
+#: templates/bootstrap/comment-like.php:37
+msgid "Liked"
+msgstr ""
+
+#: templates/bootstrap/comment-like.php:37
+msgid "Like"
+msgstr ""
+
+#: templates/bootstrap/comment-sorting.php:64
+#, php-format
+msgid "Sort: %s"
+msgstr ""
+
+#: templates/bootstrap/comment-sorting.php:75
+msgid "Sort Reviews"
+msgstr ""
+
+#: templates/legacy/comment-like.php:25
+#, php-format
+msgid "%d people like this."
+msgstr ""
+
+#: templates/legacy/comment-like.php:30
+msgid "You and 1 other like this."
+msgstr ""
+
+#: templates/legacy/comment-like.php:30
+#, php-format
+msgid "You and %d others like this."
+msgstr ""
+
+#: templates/legacy/comment-like.php:32
+msgid "You like this."
+msgstr ""

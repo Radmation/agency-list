@@ -1,0 +1,79 @@
+version: "3"
+services:
+  webserver:
+    image: nginx:latest
+    container_name: ${CLIENT_NAME}_server
+    restart: 'always'
+    ports:
+      - '80:80'
+      - '443:443'
+    volumes:
+      - ${DOCUMENT_ROOT-./www}:/var/www/html
+      - ${VHOSTS_DIR-./docker/config/vhosts/agency-list.conf}:/etc/nginx/conf.d/default.conf
+    networks:
+      code-network:
+        aliases:
+          - siteurl.local
+  db:
+    image: mariadb
+    container_name: ${CLIENT_NAME}_db
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+    ports:
+      - '3306:3306'
+    volumes:
+      - dev:/var/lib/mysql
+      - ${MYSQL_LOG_DIR-./docker/logs/mariadb}:/var/log/mysql
+    networks:
+      - code-network
+  composer:
+    restart: 'no'
+    container_name: ${CLIENT_NAME}_composer
+    image: composer:latest
+    command: tail -f /dev/null
+    volumes:
+      - ${DOCUMENT_ROOT-./www}:/var/www/html
+    working_dir: /var/www/html/
+    networks:
+      - code-network
+  php:
+    build:
+      context: ./docker/server
+    container_name: ${CLIENT_NAME}_php
+    volumes:
+      - ${DOCUMENT_ROOT-./www}:/var/www/html
+      - ${PHP_INI-./docker/config/php/php.ini}:/usr/local/etc/php/php.ini
+    networks:
+      - code-network
+  mailhog:
+    container_name: ${CLIENT_NAME}_mail
+    image: mailhog/mailhog:v1.0.0
+    ports:
+      - "1025:1025"
+      - "8025:8025"
+    networks:
+      - code-network
+#  ngrok:
+#    image: wernight/ngrok:latest
+#    container_name: ${CLIENT_NAME}_ngrok
+#    ports:
+#      - '4040:4040'
+#    links:
+#      - webserver
+#    environment:
+#      NGROK_AUTH: ${NGROK_AUTH}
+#      NGROK_LOOK_DOMAIN: ${NGROK_LOOK_DOMAIN}
+#      NGROK_HEADER: ${NGROK_HEADER}
+#      NGROK_PORT: ${NGROK_PORT}
+#    networks:
+#      - code-network
+networks:
+  code-network:
+    driver: bridge
+volumes:
+  dev:
+    external:
+      name: ${CLIENT_NAME}_dev

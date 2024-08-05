@@ -1,0 +1,1183 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GeoDirectory Advance Search Filters 2.3.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-05 23:09+0530\n"
+"PO-Revision-Date: 2023-12-05 23:09+0530\n"
+"Last-Translator: \n"
+"Language-Team: AyeCode Ltd <contact@ayecode.io>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;__ngettext:1,2;__ngettext_noop:1,2;_c;_e;_ex:1,2c;"
+"_n:1,2;_n_noop:1,2;_nc:4c,1,2;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;gettext;"
+"gettext_noop\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/admin/admin-functions.php:32
+msgid "Advanced Search Filters"
+msgstr ""
+
+#: includes/admin/admin-functions.php:33
+msgid ""
+"Check this box if you would like to completely remove all of its data when "
+"Advanced Search Filters is deleted."
+msgstr ""
+
+#: includes/admin/admin-functions.php:63
+msgid "Advance Search Fields"
+msgstr ""
+
+#: includes/admin/class-geodir-adv-search-admin-conditional-fields.php:87
+msgid "Conditional Fields"
+msgstr ""
+
+#: includes/admin/class-geodir-adv-search-admin-conditional-fields.php:90
+msgid ""
+"Setup conditional logic to show/hide this field in the advance search "
+"filters form based on specific fields value or conditions."
+msgstr ""
+
+#: includes/admin/class-geodir-adv-search-admin-conditional-fields.php:104
+msgid "if"
+msgstr ""
+
+#: includes/admin/class-geodir-adv-search-admin-conditional-fields.php:146
+msgid "Add Rule"
+msgstr ""
+
+#: includes/admin/class-geodir-adv-search-admin-conditional-fields.php:169
+msgid "ACTION"
+msgstr ""
+
+#: includes/admin/class-geodir-adv-search-admin-conditional-fields.php:170
+msgid "show"
+msgstr ""
+
+#: includes/admin/class-geodir-adv-search-admin-conditional-fields.php:171
+msgid "hide"
+msgstr ""
+
+#: includes/admin/class-geodir-adv-search-admin-conditional-fields.php:177
+msgid "FIELD"
+msgstr ""
+
+#: includes/admin/class-geodir-adv-search-admin-conditional-fields.php:201
+msgid "CONDITION"
+msgstr ""
+
+#: includes/admin/class-geodir-adv-search-admin-conditional-fields.php:202
+msgid "empty"
+msgstr ""
+
+#: includes/admin/class-geodir-adv-search-admin-conditional-fields.php:203
+msgid "not empty"
+msgstr ""
+
+#: includes/admin/class-geodir-adv-search-admin-conditional-fields.php:204
+msgid "equals to"
+msgstr ""
+
+#: includes/admin/class-geodir-adv-search-admin-conditional-fields.php:205
+msgid "not equals"
+msgstr ""
+
+#: includes/admin/class-geodir-adv-search-admin-conditional-fields.php:206
+msgid "greater than"
+msgstr ""
+
+#: includes/admin/class-geodir-adv-search-admin-conditional-fields.php:207
+#: includes/template-functions.php:1248
+msgid "less than"
+msgstr ""
+
+#: includes/admin/class-geodir-adv-search-admin-conditional-fields.php:208
+msgid "contains"
+msgstr ""
+
+#: includes/admin/class-geodir-adv-search-admin-conditional-fields.php:213
+msgid "VALUE"
+msgstr ""
+
+#: includes/admin/class-geodir-adv-search-admin-conditional-fields.php:220
+msgid "Remove"
+msgstr ""
+
+#: includes/admin/class-geodir-adv-search-admin-conditional-fields.php:244
+msgid "Post Type"
+msgstr ""
+
+#: includes/admin/class-geodir-adv-search-admin-conditional-fields.php:245
+msgid "Search for"
+msgstr ""
+
+#: includes/admin/class-geodir-adv-search-admin-conditional-fields.php:246
+msgid "Near"
+msgstr ""
+
+#: includes/admin/class-geodir-adv-search-admin-conditional-fields.php:414
+msgid "This is a mandatory field. if hidden when submitted, it will fail."
+msgstr ""
+
+#: includes/admin/class-geodir-adv-search-admin.php:61
+msgid "GeoDirectory"
+msgstr ""
+
+#: includes/admin/class-geodir-adv-search-admin.php:98
+msgid "Advance Filters Button Text"
+msgstr ""
+
+#: includes/admin/class-geodir-adv-search-admin.php:99
+msgid ""
+"Show the advance search filters button text in search form. You can use a "
+"font awesome class here."
+msgstr ""
+
+#: includes/admin/class-geodir-adv-search-admin.php:116
+msgid "Site settings"
+msgstr ""
+
+#: includes/admin/class-geodir-adv-search-admin.php:121
+msgid "Display Searched Filters"
+msgstr ""
+
+#: includes/admin/class-geodir-adv-search-admin.php:122
+msgid ""
+"Enable to display searched parameters with title when searching for a custom "
+"field."
+msgstr ""
+
+#: includes/admin/class-geodir-adv-search-admin.php:128
+msgid "Clear Filters Button"
+msgstr ""
+
+#: includes/admin/class-geodir-adv-search-admin.php:129
+msgid "Show Clear All action to clear all search filters."
+msgstr ""
+
+#: includes/admin/class-geodir-adv-search-admin.php:133
+msgid "Clear Filters Button Text"
+msgstr ""
+
+#: includes/admin/class-geodir-adv-search-admin.php:134
+msgid "Show the clear all filters button text in search form."
+msgstr ""
+
+#: includes/admin/class-geodir-adv-search-admin.php:171
+msgid "Check-In - Check-Out"
+msgstr ""
+
+#: includes/admin/class-geodir-adv-search-admin.php:172
+msgid "Booking Availability"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-advance-search.php:27
+msgid "Advanced Search"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-advance-search.php:79
+msgid "Autocompleter Settings"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-advance-search.php:84
+msgid "Enable search autocompleter?"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-advance-search.php:85
+msgid "Tick to enable autocompleter for search."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-advance-search.php:91
+msgid "Show search suggestions with"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-advance-search.php:92
+msgid ""
+"If search autocompleter is enabled then it allows to show/hide listings & "
+"categories from autocomplete search suggestions."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-advance-search.php:96
+msgid "Listings & Categories"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-advance-search.php:97
+msgid "Listings Only"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-advance-search.php:98
+msgid "Categories Only"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-advance-search.php:106
+msgid "Min chars needed to trigger autocomplete"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-advance-search.php:107
+msgid ""
+"Enter the minimum characters users need to be typed to trigger auto "
+"complete, ex: 2."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-advance-search.php:119
+msgid "Max results to be returned by autocomplete"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-advance-search.php:120
+msgid ""
+"Enter the maximum number of results to be returned by autocomplete, ex: 10."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-advance-search.php:132
+msgid "Listings from child category?"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-advance-search.php:133
+msgid ""
+"Show listings from all child categories of a parent category. Searching with "
+"category CAT-A will show all the listings from child categories of CAT-A."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-advance-search.php:140
+msgid "Enable location filter?"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-advance-search.php:141
+msgid "Tick to filter the autocompleter search results with current location."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-advance-search.php:156
+msgid "AJAX Search"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-advance-search.php:161
+msgid "AJAX Search Filters"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-advance-search.php:162
+msgid "Enable AJAX search filters on search page."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-advance-search.php:170
+msgid "Update Search Results"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-advance-search.php:171
+msgid "How AJAX search results updated on the search page."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-advance-search.php:174
+msgid "Update only when \"Update Results\" clicked"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-advance-search.php:175
+msgid "Auto update on any changes"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-advance-search.php:186
+msgid "Update Results Button Text"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-advance-search.php:187
+msgid ""
+"Show the update results button text in search form. Font Awesome class is "
+"allowed here."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-advance-search.php:199
+msgid "Search As Move The Map"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-advance-search.php:200
+msgid "Update search results as user move the map."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-advance-search.php:207
+msgid "Update Map Results"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-advance-search.php:208
+msgid "How update the search results as user move the map."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-advance-search.php:211
+msgid "Show only page results"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-advance-search.php:212
+msgid "Show all results"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-advance-search.php:225
+msgid "Default Search As Move The Map"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-advance-search.php:226
+msgid "Show Search As Move The Map option checked by default on the map."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-advance-search.php:233
+msgid "AJAX Pagination"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-advance-search.php:234
+msgid "How to show AJAX pagination on the search results page."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-advance-search.php:237
+msgid "Page Numbers"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-advance-search.php:238
+msgid "Load More Button"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-advance-search.php:239
+msgid "Infinite Scroll"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-cpt-search.php:46
+#: includes/admin/settings/class-geodir-adv-search-settings-cpt-search.php:64
+msgid "Search"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-cpt-search.php:94
+msgid "Fields"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-cpt-search.php:106
+msgid "Select what fields to show in the search form."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-cpt-search.php:146
+msgid "Search fields"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-cpt-search.php:157
+msgid ""
+"Click a field to change its settings. Drag and drop a filed to change its "
+"order."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-cpt-search.php:182
+msgid "Select a field from the left to get started."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-cpt-search.php:456
+msgid "Field update failed."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-cpt-search.php:467
+msgid "Field create failed."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-cpt-search.php:531
+#: includes/admin/settings/class-geodir-adv-search-settings-cpt-search.php:534
+msgid "Failed to delete search item."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-cpt-search.php:576
+#: includes/admin/settings/class-geodir-adv-search-settings-cpt-search.php:579
+msgid "Failed to sort field items."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-cpt-search.php:636
+msgid "There are no custom fields here yet."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-cpt-search.php:656
+msgid "Fieldset (section separator)"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-cpt-search.php:663
+#: includes/admin/settings/class-geodir-adv-search-settings-cpt-search.php:664
+msgid "Search By Distance"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-cpt-search.php:676
+#: includes/admin/settings/class-geodir-adv-search-settings-cpt-search.php:677
+msgid "Include Sold"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-adv-search-settings-cpt-search.php:743
+#: includes/admin/settings/class-geodir-adv-search-settings-cpt-search.php:744
+#: includes/class-geodir-adv-search-business-hours.php:65
+#: includes/class-geodir-adv-search-business-hours.php:356
+#: includes/class-geodir-adv-search-business-hours.php:498
+#: includes/class-geodir-adv-search-fields.php:198
+#: includes/class-geodir-adv-search-fields.php:199
+msgid "Open Hours"
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:19
+msgid "Fieldset:"
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:53
+msgid "Frontend title"
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:53
+msgid "Search field frontend title."
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:66
+msgid "Description"
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:66
+msgid "Search field frontend description."
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:84
+msgid "Main search bar?"
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:90
+msgid ""
+"This will show the filed in the main search bar as a select input, it will "
+"no longer show in the advanced search dropdown."
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:99
+msgid "Search bar priority"
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:99
+msgid ""
+"Where in the search bar you want it to be placed (recommended 15). CPT "
+"input: 10, Search input:20, Near input:30."
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:120
+msgid "SELECT"
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:121
+msgid "CHECK"
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:122
+msgid "RADIO"
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:123
+msgid "LINK"
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:125
+msgid "Input type"
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:125
+msgid "Select the field input type in the search bar."
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:145
+msgid "Range in SELECT"
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:146
+msgid "Range in LINK"
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:147
+msgid "Range in TEXT"
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:149
+msgid "Data Type"
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:149
+msgid "Select the field input data type in the search bar."
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:168
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:283
+msgid "Range single"
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:169
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:284
+msgid "Range from"
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:171
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:286
+msgid "Searching Type"
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:171
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:286
+msgid "Select searching type."
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:187
+msgid "Starting Search Range"
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:202
+msgid "Maximum Search Range"
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:202
+msgid ""
+"Enter the maximum radius of the search zone you want to create, for example "
+"if you want your visitors to search any listing within 50 miles or "
+"kilometers from the current location, then you would enter 50."
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:218
+msgid "Difference in Search Range"
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:218
+msgid ""
+"Here you decide how many different search radii you make available to your "
+"visitors. If you enter a fifth of the Maximum Search Range, there will be 5 "
+"options; if you enter half of the Maximum Search Range, then there will be 2 "
+"options."
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:234
+msgid "First Search Range"
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:234
+msgid "First Search Range."
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:248
+msgid "First Search Range Text"
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:248
+msgid "First search range text."
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:251
+#: includes/template-functions.php:542 includes/template-functions.php:1656
+msgid "Less than"
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:263
+msgid "Last Search Range Text"
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:263
+msgid "Last search range text."
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:266
+#: includes/template-functions.php:545 includes/template-functions.php:1659
+msgid "More than"
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:302
+msgid "Expand Search Range"
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:302
+msgid "Set a show limit, after which a show more button will be used."
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:325
+msgid "Show distance sorting"
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:331
+msgid ""
+"Select if you want to show option in distance sort (for advanced filters "
+"only)."
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:341
+msgid "Select Nearest"
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:341
+msgid "Set the distance sort nearest title (for advanced filters only)."
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:344
+msgid "Ascending title (set to enable)"
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:355
+msgid "Select Farthest"
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:355
+msgid "Set the distance sort farthest title (for advanced filters only)."
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:358
+msgid "Descending title (set to enable)"
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:370
+msgid "Distance Label"
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:370
+msgid "Set the distance label to show in distance slider popup."
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:372
+#: includes/class-geodir-adv-search-fields.php:861
+msgid "Distance"
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:391
+msgid "AND"
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:392
+msgid "OR"
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:394
+msgid "Search Operator"
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:394
+msgid ""
+"Works with Checkbox type only. )  If AND is selected then the listing must "
+"contain all the selected options, if OR is selected then the listing must "
+"contain 1 selected item."
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:404
+msgid "Close"
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:405
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:406
+msgid "Save"
+msgstr ""
+
+#: includes/admin/views/html-admin-settings-cpt-search-setting-item.php:405
+msgid "Saving"
+msgstr ""
+
+#: includes/class-geodir-adv-search-ajax.php:67
+#: includes/class-geodir-adv-search-ajax.php:99
+msgid "Post type not found."
+msgstr ""
+
+#: includes/class-geodir-adv-search-ajax.php:69
+msgid "htmlvar_name not found."
+msgstr ""
+
+#: includes/class-geodir-adv-search-ajax.php:128
+msgid "No field found."
+msgstr ""
+
+#: includes/class-geodir-adv-search-ajax.php:152
+msgid "No fields found."
+msgstr ""
+
+#: includes/class-geodir-adv-search-business-hours.php:53
+msgid "Open Now"
+msgstr ""
+
+#: includes/class-geodir-adv-search-business-hours.php:54
+msgid "Monday"
+msgstr ""
+
+#: includes/class-geodir-adv-search-business-hours.php:55
+msgid "Tuesday"
+msgstr ""
+
+#: includes/class-geodir-adv-search-business-hours.php:56
+msgid "Wednesday"
+msgstr ""
+
+#: includes/class-geodir-adv-search-business-hours.php:57
+msgid "Thursday"
+msgstr ""
+
+#: includes/class-geodir-adv-search-business-hours.php:58
+msgid "Friday"
+msgstr ""
+
+#: includes/class-geodir-adv-search-business-hours.php:59
+msgid "Saturday"
+msgstr ""
+
+#: includes/class-geodir-adv-search-business-hours.php:60
+msgid "Sunday"
+msgstr ""
+
+#: includes/class-geodir-adv-search-business-hours.php:61
+msgid "Weekend"
+msgstr ""
+
+#: includes/class-geodir-adv-search-business-hours.php:462
+msgid "Merge Business Hours"
+msgstr ""
+
+#: includes/class-geodir-adv-search-business-hours.php:463
+#: includes/class-geodir-adv-search-business-hours.php:472
+msgid "Run"
+msgstr ""
+
+#: includes/class-geodir-adv-search-business-hours.php:464
+msgid "Merge post business hours to enhance Open Hours searching."
+msgstr ""
+
+#: includes/class-geodir-adv-search-business-hours.php:471
+msgid "Adjust Business Hours with DST"
+msgstr ""
+
+#: includes/class-geodir-adv-search-business-hours.php:473
+msgid ""
+"Adjust listing business open/close hours with daylight saving time(DST) "
+"offset for timezones which observes daylight saving time(DST)."
+msgstr ""
+
+#: includes/class-geodir-adv-search-business-hours.php:499
+msgid "Filter posts by open hours."
+msgstr ""
+
+#: includes/class-geodir-adv-search-business-hours.php:505
+msgid "Filters"
+msgstr ""
+
+#: includes/class-geodir-adv-search-fields.php:90
+#: includes/class-geodir-adv-search-fields.php:776
+#: includes/class-geodir-adv-search-fields.php:1478
+#: includes/class-geodir-adv-search-fields.php:1567
+msgid "Select Status"
+msgstr ""
+
+#: includes/class-geodir-adv-search-fields.php:240
+#: includes/class-geodir-adv-search-fields.php:264
+msgid "Advanced Filters"
+msgstr ""
+
+#: includes/class-geodir-adv-search-fields.php:344
+msgid "Category"
+msgstr ""
+
+#: includes/class-geodir-adv-search-fields.php:388
+#: includes/class-geodir-adv-search-fields.php:807
+#: includes/template-functions.php:894 includes/template-functions.php:1968
+msgid "Yes"
+msgstr ""
+
+#: includes/class-geodir-adv-search-fields.php:447
+#: includes/class-geodir-adv-search-fields.php:1174
+#: includes/class-geodir-adv-search-fields.php:1269
+#, php-format
+msgid "%s Dates"
+msgstr ""
+
+#: includes/class-geodir-adv-search-fields.php:449
+#: includes/class-geodir-adv-search-fields.php:538
+#: includes/class-geodir-adv-search-fields.php:630
+#: includes/class-geodir-adv-search-fields.php:733
+#: includes/class-geodir-adv-search-fields.php:1176
+#: includes/class-geodir-adv-search-fields.php:1271
+#: includes/class-geodir-adv-search-fields.php:1708
+#: includes/class-geodir-adv-search-fields.php:1811
+#, php-format
+msgid "From: %s"
+msgstr ""
+
+#: includes/class-geodir-adv-search-fields.php:449
+#: includes/class-geodir-adv-search-fields.php:538
+#: includes/class-geodir-adv-search-fields.php:1176
+#: includes/class-geodir-adv-search-fields.php:1271
+#, php-format
+msgid "%s Start Date"
+msgstr ""
+
+#: includes/class-geodir-adv-search-fields.php:450
+#: includes/class-geodir-adv-search-fields.php:539
+#: includes/class-geodir-adv-search-fields.php:631
+#: includes/class-geodir-adv-search-fields.php:734
+#: includes/class-geodir-adv-search-fields.php:1177
+#: includes/class-geodir-adv-search-fields.php:1272
+#: includes/class-geodir-adv-search-fields.php:1709
+#: includes/class-geodir-adv-search-fields.php:1812
+#, php-format
+msgid "To: %s"
+msgstr ""
+
+#: includes/class-geodir-adv-search-fields.php:450
+#: includes/class-geodir-adv-search-fields.php:539
+#: includes/class-geodir-adv-search-fields.php:1177
+#: includes/class-geodir-adv-search-fields.php:1272
+#, php-format
+msgid "%s End Date"
+msgstr ""
+
+#: includes/class-geodir-adv-search-fields.php:484
+#: includes/class-geodir-adv-search-fields.php:550
+#: includes/class-geodir-adv-search-fields.php:1210
+#: includes/class-geodir-adv-search-fields.php:1287
+#, php-format
+msgid "%s Date"
+msgstr ""
+
+#: includes/class-geodir-adv-search-fields.php:628
+#: includes/class-geodir-adv-search-fields.php:680
+#: includes/class-geodir-adv-search-fields.php:745
+#: includes/class-geodir-adv-search-fields.php:1706
+#: includes/class-geodir-adv-search-fields.php:1753
+#: includes/class-geodir-adv-search-fields.php:1809
+#: includes/class-geodir-adv-search-fields.php:1840
+#, php-format
+msgid "%s Time"
+msgstr ""
+
+#: includes/class-geodir-adv-search-fields.php:630
+#: includes/class-geodir-adv-search-fields.php:733
+#: includes/class-geodir-adv-search-fields.php:1708
+#: includes/class-geodir-adv-search-fields.php:1811
+#, php-format
+msgid "%s Start Time"
+msgstr ""
+
+#: includes/class-geodir-adv-search-fields.php:631
+#: includes/class-geodir-adv-search-fields.php:734
+#: includes/class-geodir-adv-search-fields.php:1709
+#: includes/class-geodir-adv-search-fields.php:1812
+#, php-format
+msgid "%s End Time"
+msgstr ""
+
+#: includes/class-geodir-adv-search-fields.php:654
+#: includes/class-geodir-adv-search-fields.php:671
+#: includes/class-geodir-adv-search-fields.php:1733
+#: includes/class-geodir-adv-search-fields.php:1745
+msgid "Clear field"
+msgstr ""
+
+#: includes/class-geodir-adv-search-fields.php:871
+#: includes/class-geodir-adv-search-fields.php:914
+#: includes/class-geodir-adv-search-fields.php:916
+msgid "Kilometers"
+msgstr ""
+
+#: includes/class-geodir-adv-search-fields.php:874
+#: includes/class-geodir-adv-search-fields.php:914
+#: includes/class-geodir-adv-search-fields.php:916
+msgid "Miles"
+msgstr ""
+
+#: includes/class-geodir-adv-search-fields.php:1352
+msgid "Nearest"
+msgstr ""
+
+#: includes/class-geodir-adv-search-fields.php:1362
+msgid "Farthest"
+msgstr ""
+
+#: includes/class-geodir-adv-search-fields.php:1375
+msgid "Select Option"
+msgstr ""
+
+#: includes/class-geodir-adv-search-query.php:469
+msgid "AJAX search check failed!"
+msgstr ""
+
+#: includes/class-geodir-adv-search.php:146
+msgid ""
+"GeoDirectory plugin is required for the GeoDirectory Advance Search Filters "
+"plugin to work properly."
+msgstr ""
+
+#: includes/class-geodir-adv-search.php:158
+msgid ""
+"Your version of PHP is below the minimum version of PHP required by "
+"GeoDirectory Advance Search Filters. Please contact your host and request "
+"that your version be upgraded to 5.3 or later."
+msgstr ""
+
+#: includes/class-geodir-adv-search.php:340
+msgid "Search as I move the map"
+msgstr ""
+
+#: includes/class-geodir-adv-search.php:341
+msgid "Redo search in map"
+msgstr ""
+
+#: includes/class-geodir-adv-search.php:1120
+#: includes/class-geodir-adv-search.php:1180 includes/template-functions.php:70
+msgid "Loading..."
+msgstr ""
+
+#: includes/functions.php:374
+msgid "Categories"
+msgstr ""
+
+#: includes/functions.php:376
+msgid "Listings"
+msgstr ""
+
+#: includes/functions.php:386
+msgid "Search history"
+msgstr ""
+
+#: includes/functions.php:387
+msgid "Remove from history"
+msgstr ""
+
+#: includes/functions.php:486
+#, php-format
+msgid "Business hours merged for %d post."
+msgid_plural "Business hours merged for %d posts."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/functions.php:488
+msgid "No post to merge business hours."
+msgstr ""
+
+#: includes/functions.php:498
+#, php-format
+msgid "Business hours adjusted for %d item with daylight saving time."
+msgid_plural "Business hours adjusted for %d items with daylight saving time."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/functions.php:500
+msgid "No item to adjust business hours with daylight saving time."
+msgstr ""
+
+#: includes/functions.php:594 includes/functions.php:595
+msgid " to "
+msgstr ""
+
+#: includes/template-functions.php:31
+msgid "Near:"
+msgstr ""
+
+#: includes/template-functions.php:33
+msgid "Me"
+msgstr ""
+
+#: includes/template-functions.php:34
+msgid "km"
+msgstr ""
+
+#: includes/template-functions.php:34
+msgid "miles"
+msgstr ""
+
+#: includes/template-functions.php:39
+msgid "User defined"
+msgstr ""
+
+#: includes/template-functions.php:42
+msgid "Do you wish to be geolocated to listings near you?"
+msgstr ""
+
+#: includes/template-functions.php:43
+msgid "Unable to find your location."
+msgstr ""
+
+#: includes/template-functions.php:44
+msgid "Permission denied in finding your location."
+msgstr ""
+
+#: includes/template-functions.php:45
+msgid "Your location is currently unknown."
+msgstr ""
+
+#: includes/template-functions.php:46
+msgid "Attempt to find location took too long."
+msgstr ""
+
+#: includes/template-functions.php:47
+msgid "Geolocation is not supported by this browser."
+msgstr ""
+
+#: includes/template-functions.php:49
+msgid "Browser unable to find your location."
+msgstr ""
+
+#: includes/template-functions.php:51 includes/template-functions.php:929
+#: includes/template-functions.php:2003
+msgid "More"
+msgstr ""
+
+#: includes/template-functions.php:52 includes/template-functions.php:2003
+msgid "Less"
+msgstr ""
+
+#: includes/template-functions.php:53
+msgid "In:"
+msgstr ""
+
+#: includes/template-functions.php:54
+msgid "(Country)"
+msgstr ""
+
+#: includes/template-functions.php:55
+msgid "(Region)"
+msgstr ""
+
+#: includes/template-functions.php:56
+msgid "(City)"
+msgstr ""
+
+#: includes/template-functions.php:57
+msgid "(Neighbourhood)"
+msgstr ""
+
+#: includes/template-functions.php:66
+msgid "am"
+msgstr ""
+
+#: includes/template-functions.php:66
+msgid "AM"
+msgstr ""
+
+#: includes/template-functions.php:66
+msgid "pm"
+msgstr ""
+
+#: includes/template-functions.php:66
+msgid "PM"
+msgstr ""
+
+#: includes/template-functions.php:69
+msgid "Load More"
+msgstr ""
+
+#: includes/template-functions.php:96
+msgid "Show:"
+msgstr ""
+
+#: includes/template-functions.php:97
+msgid "Show/hide main search bar & advanced filters in search form."
+msgstr ""
+
+#: includes/template-functions.php:99
+msgid "Main search bar & Advanced filters"
+msgstr ""
+
+#: includes/template-functions.php:100
+msgid "Main search bar only"
+msgstr ""
+
+#: includes/template-functions.php:101
+msgid "Advanced filters only"
+msgstr ""
+
+#: includes/template-functions.php:106 includes/template-functions.php:122
+#: includes/template-functions.php:139
+msgid "Content"
+msgstr ""
+
+#: includes/template-functions.php:112
+msgid "Filters Positioning"
+msgstr ""
+
+#: includes/template-functions.php:113
+msgid "How the filters container should be displayed."
+msgstr ""
+
+#: includes/template-functions.php:115 includes/template-functions.php:132
+msgid "Default"
+msgstr ""
+
+#: includes/template-functions.php:116
+msgid "Float"
+msgstr ""
+
+#: includes/template-functions.php:117
+msgid "Absolute"
+msgstr ""
+
+#: includes/template-functions.php:128
+msgid "Open customize filters:"
+msgstr ""
+
+#: includes/template-functions.php:129
+msgid "Select when open / hide customize filters."
+msgstr ""
+
+#: includes/template-functions.php:133
+msgid "Open when searched"
+msgstr ""
+
+#: includes/template-functions.php:134
+msgid "Always open"
+msgstr ""
+
+#: includes/template-functions.php:350 includes/template-functions.php:732
+#: includes/template-functions.php:1445 includes/template-functions.php:1845
+msgid "Select option"
+msgstr ""
+
+#: includes/template-functions.php:581 includes/template-functions.php:1693
+msgid "Start search value"
+msgstr ""
+
+#: includes/template-functions.php:582 includes/template-functions.php:1694
+msgid "End search value"
+msgstr ""
+
+#: includes/template-functions.php:869 includes/template-functions.php:1234
+#: includes/template-functions.php:1943
+msgid "Within"
+msgstr ""
+
+#: includes/template-functions.php:1178
+msgid "My Location"
+msgstr ""
+
+#: includes/template-functions.php:1183
+#, php-format
+msgid "Near: %s"
+msgstr ""
+
+#: includes/template-functions.php:1214 includes/template-functions.php:1302
+#, php-format
+msgid "from %s"
+msgstr ""
+
+#: includes/template-functions.php:1216 includes/template-functions.php:1304
+#, php-format
+msgid "to %s"
+msgstr ""
+
+#: includes/template-functions.php:1250
+msgid "more than"
+msgstr ""
+
+#: includes/template-functions.php:1306
+#, php-format
+msgid "%s to %s"
+msgstr ""
+
+#: includes/template-functions.php:1402
+msgid "Clear All Filters"
+msgstr ""
+
+#: includes/template-functions.php:2063
+msgid "fas fa-cog"
+msgstr ""
+
+#: includes/template-functions.php:2100
+msgid "Clear All"
+msgstr ""
+
+#: includes/template-functions.php:2449
+msgid "fas fa-sync"
+msgstr ""
+
+#: includes/template-functions.php:2489
+msgid "Update Results"
+msgstr ""

@@ -1,0 +1,11 @@
+.idea
+docker/logs/apache2/*.log
+*.env
+www/.htaccess
+www/wp-config.php
+*.scssc
+*.php_lk
+*.log
+node_modules
+aiowps_backups
+www/wp-content/cache

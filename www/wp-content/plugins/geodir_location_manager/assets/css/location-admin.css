@@ -1,0 +1,189 @@
+.merge-locationto {
+    float: left;
+    padding-left: 15px;
+    padding-right: 20px;
+    border-right: #EAEAEA 1px solid;
+}
+.merge-locationfrom {
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.managelocation_fields .inner_content_tab_main {
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+    border-radius: none;
+    min-height: inherit;
+    overflow-x: inherit;
+    overflow-y: inherit;
+    overflow: hidden;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+.geodir_line_seperator {
+    border-bottom: solid 1px #E7E7E7;
+    line-height: 1.3;
+    margin-bottom: 9px;
+    padding: 5px 0px!important;
+    vertical-align: middle;
+}
+.geodir_set_location_seo_region {
+    background: none repeat scroll 0 0 #F1F1F1;
+}
+.geodir_set_location_seo_city {
+    background: none repeat scroll 0 0 #e1e1e1;
+}
+.gd-location-seo-box div *,
+.gd-location-seo-box table td,
+.gd-location-seo-box table td * {
+    font-size: 13px;
+}
+#geodir_location_seo_settings textarea {
+    width: 99%;
+    height: 72px;
+}
+input.geodir_loc_image {
+    max-width: 200px;
+}
+.gd-seo-tbltype-country,
+.gd-seo-tbltype-region,
+.gd-seo-tbltype-city {
+    width: 100%;
+}
+.gd-seo-tbltype-country th {
+    width: 16%;
+}
+.gd-seo-tbltype-region th {
+    width: 18%;
+}
+.gd-seo-tbltype-city th {
+    width: 12%;
+}
+.gd-seo-tbltype-country th.gd-seo-metath {
+    width: 28%;
+}
+.gd-seo-tbltype-region th.gd-seo-metath {
+    width: 21.33%;
+}
+.gd-seo-tbltype-city th.gd-seo-metath {
+    width: 21.33%;
+}
+#widgets-right .widget-content span.description {
+    display: block;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 3px;
+    padding: 0;
+}
+#wp-ct_cat_top_desc-editor-container #ct_cat_top_desc,
+#wp-ct_cat_bottom_desc-editor-container #ct_cat_bottom_desc,
+#wp-gd_cat_loc_country-editor-container #gd_cat_loc_country,
+#wp-gd_cat_loc_region-editor-container #gd_cat_loc_region,
+#wp-gd_cat_loc-editor-container #gd_cat_loc {
+    width: 100% !important;
+    border: none;
+    min-height: 200px !important;
+    height: 200px;
+}
+.location-top-desc .fa {
+    margin-right: 2px;
+}
+.location-top-desc .gd-catloc-status {
+    margin-left: 7px;
+    display: none;
+}
+.location-top-desc .gd-loc-done .fa {
+    color: orange;
+}
+.location-top-desc .gd-loc-fail .fa {
+    color: red;
+}
+.gd-new-loc-div input[type="button"] {
+    float: left;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+.geodir-locations-list .column-action .fa {
+    color: #555
+}
+.geodir-locations-list .column-action .geodir-act-delete .fas {
+    color: red
+}
+.geodir-locations-list .column-action,
+.geodir-locations-list .column-is_default,
+.geodir-locations-list .column-total_regions,
+.geodir-locations-list .column-total_cities,
+.geodir-locations-list .column-total_posts,
+.geodir-locations-list .column-neighbourhoods {
+    text-align: center;
+}
+.geodir-locations-list .column-id,
+.geodir-locations-list .column-is_default {
+    width: 60px;
+}
+.geodir-locations-list .column-action,
+.geodir-locations-list .column-total_regions,
+.geodir-locations-list .column-total_cities {
+    width: 80px;
+}
+.geodir-locations-list .column-image {
+	width: 80px;
+	text-align: center;
+}
+.geodir-locations-list .column-neighbourhoods {
+    width: 90px;
+	word-wrap: normal;
+	white-space: nowrap;	
+}
+.form-table tr.formlabel th {
+	padding: 10px 10px 10px 0;
+}
+.form-table tr.formlabel td {
+	padding: 5px 10px;
+}
+.geodir-locations-list .gd-meta {
+	display: block;
+	color: #777
+}
+.geodir-neighbourhoods-list .column-slug {
+	width: auto;
+}
+.geodir-neighbourhoods-list .column-location {
+	width: 240px;
+}
+.geodir-merge-data {
+	max-width: 600px;
+}
+.geodir-merge-data .column-primary {
+	width: 20%;
+}
+.geodir-merge-data input[type="text"],
+.geodir-merge-data input[type="number"] {
+	width: 100%
+}
+.geodir-merge-data table td {
+	background: #fff;
+	border-bottom: 1px solid #eee;
+	vertical-align: middle
+}
+.geodir-merge-data table  .column-value .fa {
+	margin-right: 5px;
+	vertical-align: middle;
+	font-size: 1.5em
+}
+.geodir-merge-data table  .column-value span {
+	vertical-align: middle;
+}
+.geodir-merge-data.geodir-is-primary .column-value a {
+	visibility: hidden;
+}
+.wp-list-table.countries .column-action a,
+.wp-list-table.regions .column-action a,
+.wp-list-table.cities .column-action a,
+.wp-list-table.neighbourhoods .column-action a {
+	margin-left: 9px;
+}

@@ -1,0 +1,328 @@
+@import "../css/dashboard-widget.scss";
+
+$toolbarBackgroundColor: #fdfdfd;
+
+$deleteActionColor: #cc1818; //Based on the "Move to Trash" button in the Gutenberg editor.
+$deleteActionHoverColor: #710d0d;
+
+#ws_php_error_log {
+	table.elm-context-parameters {
+		th {
+			font-weight: normal;
+			width: 8.2em;
+			border-right: 1px solid $tableBorderColor;
+
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+
+		.elm-more-context-row th {
+			border-right: none;
+		}
+
+		td {
+			font-family: $codeFontFamily;
+			overflow-wrap: break-word;
+			word-break: break-word;
+			//background: rgba(0,0,0,0.07);
+			//code padding is 3px 5px 2px 5px;
+		}
+	}
+
+	/*
+	 * Summary.
+	 */
+	.elm-summary .elm-timestamp {
+		display: none;
+	}
+
+	.elm-summary-metadata-item {
+		color: #666;
+
+		border-radius: 8px;
+		background: #f0f0fa;
+		padding: 2px 8px;
+
+		/*&::after {
+			content: ' | ';
+			color: #ddd;
+		}
+
+		&:last-of-type::after {
+			display: none;
+		}*/
+	}
+
+	//noinspection CssOptimizeSimilarProperties
+	.elm-summary-controls {
+		margin-top: -$widgetTopMargin;
+		margin-left: -$widgetPadding;
+		margin-right: -$widgetPadding;
+		margin-bottom: $widgetTopMargin;
+
+		position: relative;
+
+		padding: $widgetTopMargin $widgetPadding $widgetPadding $widgetPadding;
+		border-bottom: 1px solid $entryBorderColor;
+		background: $toolbarBackgroundColor;
+
+		font-size: 13px;
+		line-height: 22px;
+	}
+
+	.elm-summary-interval-selector {
+		$borderRadius: 4px;
+
+		display: inline-block;
+		margin: 0;
+		position: absolute;
+		right: $widgetPadding;
+
+		li {
+			display: inline-block;
+			margin: 0;
+			padding: 0;
+			margin-right: 0.3em;
+
+			font-weight: bold;
+			font-size: 12px;
+
+			a {
+				display: inline-block;
+				padding: 0 6px;
+
+				color: #555;
+				text-transform: uppercase;
+
+				border: 1px solid #ddd;
+				//border-right-width: 0;
+				border-radius: $borderRadius;
+				//min-width: 1em;
+
+				&:hover {
+					background: rgba(89, 178, 238, 0.3);
+					border-color: rgba(89, 178, 238, 0.5);
+					color: #32373c;
+				}
+			}
+
+			&:last-child {
+				margin-right: 0;
+			}
+
+			/*&:first-child a {
+				border-top-left-radius: $borderRadius;
+				border-bottom-left-radius: $borderRadius;
+			}
+
+			&:last-child a {
+				border-right-width: 1px;
+				border-top-right-radius: $borderRadius;
+				border-bottom-right-radius: $borderRadius;
+			}*/
+		}
+
+		.elm-current a {
+			color: #32373c;
+			background: #ebebeb;
+			border-color: #bbb;
+			border-radius: $borderRadius;
+		}
+	}
+
+	.elm-summary-order-container {
+		display: inline-block;
+		margin: 0;
+		padding: 0;
+
+		select {
+			display: inline-block;
+			vertical-align: middle;
+			font-size: 13px;
+			height: 25px;
+			padding: 1px;
+			min-width: 11em;
+		}
+	}
+
+	/*
+	 * Summary event graph.
+	 */
+
+	.elm-chart {
+		//position: relative;
+		//clear: both;
+		list-style-type: none;
+		margin: 0;
+
+		display: inline-flex;
+		flex-wrap: nowrap;
+		justify-content: space-evenly;
+		align-items: flex-end;
+
+		width: 100%;
+		max-width: 250px;
+
+		height: 30px;
+		line-height: 100%;
+
+		//border: 1px solid silver;
+		padding: 0;
+
+		.elm-chart-point {
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+
+			display: inline-block;
+			min-height: 2px;
+
+			flex-grow: 1;
+
+			margin: 0 1px;
+			padding: 0;
+			border-radius: 1px 1px 0 0;
+
+			background: #898989;
+
+			&:hover {
+				background: #959595;
+			}
+
+			&.elm-chart-zero-point {
+				background: #bbbbbb;
+			}
+		}
+	}
+
+	.elm-context-chart .elm-context-group-content {
+		border: none;
+	}
+
+	/*
+	 * Delete summary button.
+	 */
+
+	#elm-delete-summary-data {
+		margin-top: 0.2em;
+
+		&:hover {
+			color: $deleteActionHoverColor;
+		}
+	}
+
+	/*
+	 * Tabs.
+	 */
+
+	.elm-widget-tabs {
+		$tabBorderColor: #ddd;
+		$tabHorizontalPadding: 5px;
+
+		margin-top: -$widgetTopMargin + 7px;
+		margin-left: -$widgetPadding;
+		margin-right: -$widgetPadding;
+		margin-bottom: $widgetTopMargin;
+
+		padding-left: $widgetPadding - $tabHorizontalPadding;
+
+		list-style: none;
+
+		border-bottom: 1px solid $tabBorderColor;
+		border-top: none;
+		border-left: none;
+		border-right: none;
+
+		.elm-widget-tab {
+			display: inline-block;
+			line-height: 1.35em;
+
+			padding: 3px $tabHorizontalPadding 6px;
+			margin-bottom: -1px;
+
+			border: 1px solid transparent;
+
+			&.ui-tabs-active {
+				border: 1px solid $tabBorderColor;
+				border-bottom-color: $toolbarBackgroundColor;
+				background-color: $toolbarBackgroundColor;
+
+				&.elm-widget-tab-latest-entries {
+					background-color: $oddEntryBackground;
+					border-bottom-color: $oddEntryBackground;
+				}
+
+				a {
+					color: #32373c;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+
+	/*
+	 * Event count.
+	 */
+	.elm-summary {
+		.elm-summary-event-count {
+			padding: 0 10px 0;
+			min-width: 12px;
+			width: unset;
+			height: unset;
+			text-align: center;
+
+			color: white;
+			font-weight: bold;
+			font-size: 12px;
+		}
+	}
+
+	//Clear jQuery UI theme styles.
+	.ui-tabs .ui-tabs-panel {
+		padding: 0;
+	}
+
+	.ui-widget-content {
+		border: none;
+	}
+
+	.ui-widget {
+		font-size: inherit;
+		font-family: inherit;
+	}
+
+	.ui-tabs {
+		padding: 0;
+	}
+
+	.ui-widget-header {
+		background: none;
+	}
+}
+
+/*
+ * Copy feature.
+ */
+
+#elm-export-entry-confirmation {
+	display: block;
+	box-sizing: border-box;
+	position: absolute;
+
+	min-width: 180px;
+	padding: 0 6px;
+	text-align: center;
+
+	& > div {
+		padding: 6px 10px;
+
+		border-radius: 5px;
+		border: 2px solid #46b450;
+		background: white;
+
+		box-shadow: 2px 2px 6px 0 rgba(0, 0, 0, 0.5);
+
+		font-weight: bold;
+		font-size: 0.9em;
+	}
+}

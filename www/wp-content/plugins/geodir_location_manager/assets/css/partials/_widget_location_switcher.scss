@@ -1,0 +1,83 @@
+.geodir-location-switcher-lightbox{
+  .lity-container{
+    vertical-align: top;
+  }
+}
+
+.geodir-location-search-wrap{
+
+  &.lity-show{
+    overflow: visible;
+    //height: 99vh;
+    margin-top: 2px;
+  }
+
+  .gdlmls-title {
+    text-align: center;
+    font-size: 25px;
+    color: #4a4a4a;
+  }
+  .gdlmls-sub-title {
+    text-align: center;
+    font-size: 16px;
+    color: #a5a5a5;
+  }
+
+
+  .geodir-location-search-input-wrap{
+    position: relative;
+    input{
+      width: 100%;
+    }
+
+  }
+
+
+}
+
+.geodir-location-switcher-display{
+  width: 100%;
+  border: 1px solid #e8e8e8;
+  padding: 10px;
+  border-radius: 3px;
+  color: #9E9E9E;
+  position: relative;
+
+  .fa-caret-down{
+    position: absolute;
+    right: 8px;
+    top: 14px;
+    font-size: 20px;
+  }
+
+}
+
+
+
+
+// adjust lower for search near input
+.snear + .gdlm-location-suggestions{
+  top: 38px;
+}
+
+// menu item{
+.gdlmls-menu-icon{
+  &:hover{
+    .fa-map-marker-alt{
+      display: none;
+    }
+
+    .fa-times{
+      display: inline-block;
+    }
+  }
+}
+
+// location highlight
+.gd-search-field-near{
+  &.in-location{
+    .geodir-search-input-label, input{
+      color: #2196f3;
+    }
+  }
+}

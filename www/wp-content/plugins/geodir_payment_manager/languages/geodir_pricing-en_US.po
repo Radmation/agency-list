@@ -1,0 +1,2204 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GeoDirectory Pricing Manager 2.7.9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-11-08 18:53+0530\n"
+"PO-Revision-Date: 2023-11-08 18:53+0530\n"
+"Last-Translator: \n"
+"Language-Team: AyeCode Ltd <contact@ayecode.io>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;__ngettext:1,2;__ngettext_noop:1,2;_c;_e;_ex:1,2c;"
+"_n:1,2;_n_noop:1,2;_nc:4c,1,2;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;gettext;"
+"gettext_noop\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/admin/admin-functions.php:16
+msgid "Are you sure want to make this package as a default?"
+msgstr ""
+
+#: includes/admin/admin-functions.php:17
+msgid "Are you sure want to delete package?"
+msgstr ""
+
+#: includes/admin/admin-functions.php:18
+#: includes/admin/class-geodir-pricing-admin-packages-table-list.php:192
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/admin-functions.php:19
+msgid "Deleting..."
+msgstr ""
+
+#: includes/admin/admin-functions.php:20
+msgid "Deleted"
+msgstr ""
+
+#: includes/admin/admin-functions.php:21
+msgid "Are you sure you want to create invoice for this listing?"
+msgstr ""
+
+#: includes/admin/admin-functions.php:22
+msgid "Are you sure you want to link a listing to WooCommerce order?"
+msgstr ""
+
+#: includes/admin/admin-functions.php:22
+msgid "Are you sure you want to link a listing to GetPaid invoice?"
+msgstr ""
+
+#: includes/admin/admin-functions.php:40
+msgid "Pricing Manager"
+msgstr ""
+
+#: includes/admin/admin-functions.php:41
+msgid ""
+"Check this box if you would like to completely remove all of its data when "
+"Pricing Manager is deleted."
+msgstr ""
+
+#: includes/admin/admin-functions.php:54
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:45
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:603
+msgid "Packages"
+msgstr ""
+
+#: includes/admin/admin-functions.php:55
+msgid "Listing Packages"
+msgstr ""
+
+#: includes/admin/admin-functions.php:147
+msgid "Send pre expiry reminders to user"
+msgstr ""
+
+#: includes/admin/admin-functions.php:148
+#: includes/admin/admin-functions.php:156
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:332
+msgid "Run"
+msgstr ""
+
+#: includes/admin/admin-functions.php:149
+msgid ""
+"Manually send pre expiry reminder emails to the users for the listings which "
+"are going to expire and the date falls in pre expiry reminder days period."
+msgstr ""
+
+#: includes/admin/admin-functions.php:155
+msgid "Listing expire check"
+msgstr ""
+
+#: includes/admin/admin-functions.php:157
+msgid ""
+"Manually run the listing expiration check function and marks the listing as "
+"expired which have expire date older than today."
+msgstr ""
+
+#: includes/admin/admin-functions.php:191
+#, php-format
+msgid "%s (ID: %d)"
+msgstr ""
+
+#: includes/admin/admin-functions.php:204
+msgid "Show only on these price packages"
+msgstr ""
+
+#: includes/admin/admin-functions.php:204
+msgid "Select for which packages you want to show this field."
+msgstr ""
+
+#: includes/admin/admin-functions.php:206
+msgid "Select packages or field may not be shown"
+msgstr ""
+
+#: includes/admin/class-geodir-pricing-admin-install.php:436
+#: includes/admin/class-geodir-pricing-admin-install.php:438
+#: includes/admin/class-geodir-pricing-admin-install.php:448
+#: includes/admin/class-geodir-pricing-admin.php:159
+#: includes/carts/class-geodir-pricing-cart-getpaid.php:328
+#: includes/carts/class-geodir-pricing-cart-getpaid.php:482
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:223
+msgid "Package"
+msgstr ""
+
+#: includes/admin/class-geodir-pricing-admin-install.php:437
+msgid "Select your package."
+msgstr ""
+
+#: includes/admin/class-geodir-pricing-admin-install.php:457
+#: includes/admin/class-geodir-pricing-admin-install.php:459
+#: includes/admin/class-geodir-pricing-admin-install.php:469
+msgid "Expire Date"
+msgstr ""
+
+#: includes/admin/class-geodir-pricing-admin-install.php:458
+msgid ""
+"Post expire date, usually set automatically. Leave blank to set expire date "
+"\"Never\"."
+msgstr ""
+
+#: includes/admin/class-geodir-pricing-admin-install.php:507
+#, php-format
+msgid "Free %s"
+msgstr ""
+
+#: includes/admin/class-geodir-pricing-admin-packages-table-list.php:48
+msgid "Delete Permanently"
+msgstr ""
+
+#: includes/admin/class-geodir-pricing-admin-packages-table-list.php:88
+#: includes/admin/class-geodir-pricing-admin-packages.php:66
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: includes/admin/class-geodir-pricing-admin-packages-table-list.php:107
+#: includes/admin/class-geodir-pricing-admin-packages.php:93
+#, php-format
+msgid "Item deleted successfully."
+msgid_plural "%d items deleted successfully."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-geodir-pricing-admin-packages-table-list.php:109
+#: includes/admin/class-geodir-pricing-admin-packages.php:95
+msgid "No item deleted."
+msgstr ""
+
+#: includes/admin/class-geodir-pricing-admin-packages-table-list.php:137
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:222
+msgid "Name"
+msgstr ""
+
+#: includes/admin/class-geodir-pricing-admin-packages-table-list.php:138
+msgid "Price"
+msgstr ""
+
+#: includes/admin/class-geodir-pricing-admin-packages-table-list.php:139
+msgid "Life Time"
+msgstr ""
+
+#: includes/admin/class-geodir-pricing-admin-packages-table-list.php:140
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:117
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:131
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:145
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:164
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:183
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:210
+msgid "Default"
+msgstr ""
+
+#: includes/admin/class-geodir-pricing-admin-packages-table-list.php:141
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:529
+#: includes/carts/class-geodir-pricing-cart-getpaid-admin.php:167
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:832
+#: includes/carts/class-geodir-pricing-cart-woocommerce.php:1466
+msgid "Status"
+msgstr ""
+
+#: includes/admin/class-geodir-pricing-admin-packages-table-list.php:142
+#: includes/carts/class-geodir-pricing-cart-woocommerce.php:1464
+msgid "Order"
+msgstr ""
+
+#: includes/admin/class-geodir-pricing-admin-packages-table-list.php:143
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:205
+msgid "ID"
+msgstr ""
+
+#: includes/admin/class-geodir-pricing-admin-packages-table-list.php:190
+msgid "Edit"
+msgstr ""
+
+#: includes/admin/class-geodir-pricing-admin-packages-table-list.php:205
+msgid "Free"
+msgstr ""
+
+#: includes/admin/class-geodir-pricing-admin-packages-table-list.php:217
+msgid "Set Default"
+msgstr ""
+
+#: includes/admin/class-geodir-pricing-admin-packages-table-list.php:231
+#: includes/class-geodir-pricing-post.php:479
+msgid "private package"
+msgstr ""
+
+#: includes/admin/class-geodir-pricing-admin-packages-table-list.php:277
+msgid "Filter"
+msgstr ""
+
+#: includes/admin/class-geodir-pricing-admin.php:108
+#: includes/admin/class-geodir-pricing-admin.php:129
+msgid "GeoDirectory"
+msgstr ""
+
+#: includes/admin/class-geodir-pricing-admin.php:160
+msgid "Expires"
+msgstr ""
+
+#: includes/admin/class-geodir-pricing-admin.php:180
+#, php-format
+msgid "ID: %d"
+msgstr ""
+
+#: includes/admin/class-geodir-pricing-admin.php:184
+msgid "n/a"
+msgstr ""
+
+#: includes/admin/class-geodir-pricing-admin.php:204
+#: includes/class-geodir-pricing-email.php:498
+#: includes/class-geodir-pricing-email.php:512
+#: includes/class-geodir-pricing-post.php:784
+#: includes/class-geodir-pricing-post.php:799
+msgid "Never"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:75
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:188
+msgid "Add New Package"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:112
+msgid "Package saved successfully."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:179
+msgid "Back to Packages"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:181
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:607
+msgid "Add New"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:188
+#, php-format
+msgid "Edit Package #%d"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:199
+msgid "Details"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:211
+msgid "Post Type"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:223
+msgid "Package short name."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:235
+msgid "Title"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:236
+msgid "Package title to be display on frontend. Leave blank to auto generate."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:245
+msgid "Description"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:246
+msgid "Package description."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:255
+msgid "Package Icon"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:256
+msgid "Select the font awesome icon to use on frontend."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:274
+msgid "Price & Lifetime"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:280
+#, php-format
+msgid "Price (%s)"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:281
+msgid "Package price"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:290
+msgid "Package Lifetime"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:291
+msgid "Select package lifetime. Leave blank or 0 to allow unlimited lifetime."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:298
+msgid "Is Recurring?"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:299
+msgid "Tick to make package recurring."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:307
+msgid "Recurring limit"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:308
+msgid "Select 0 for recurring forever until cancelled."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:322
+msgid "Offer Trial?"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:323
+msgid "Tick to allow trial offer."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:342
+msgid "Offer Trial For"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:343
+msgid "Select package trial lifetime."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:355
+msgid "Features"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:361
+msgid "Exclude Fields"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:362
+msgid "Select post fields to exclude for this package."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:364
+msgid "Select Fields"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:373
+msgid "Exclude Categories"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:374
+msgid ""
+"Select categories exclude for this package. If removing a parent category, "
+"you should remove its child categories. It is not recommended to exclude "
+"categories from live packages as users will not be able to remove that "
+"category from the frontend."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:376
+msgid "Select Categories"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:385
+msgid "Image Limit"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:386
+msgid "Leave blank to allow unlimited images."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:388
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:403
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:418
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:457
+#: includes/class-geodir-pricing-email.php:487
+#: includes/class-geodir-pricing-email.php:499
+#: includes/class-geodir-pricing-email.php:513 includes/core-functions.php:753
+msgid "Unlimited"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:400
+msgid "Category Limit"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:401
+msgid "Leave blank or 0 to allow unlimited categories."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:415
+msgid "Tag Limit"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:416
+msgid "Leave blank or 0 to allow unlimited tags."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:430
+msgid "Limit Description Characters Length?"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:431
+msgid "Tick to set limit for the description characters length."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:439
+msgid "Max. Description Characters"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:440
+msgid "Maximum number characters allowed in description."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:454
+msgid "Limit Posts Per User"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:455
+msgid ""
+"Limit max no. posts allowed per user under this package. Leave blank or "
+"enter 0 to allow unlimited posts."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:469
+msgid "Disable HTML Editor?"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:470
+msgid "Tick to disable html editor in description field."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:478
+msgid "Disable Reviews?"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:479
+msgid "Disable reviews for the listings assigned to this package."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:487
+msgid "Review Replies"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:488
+msgid "Who can reply to reviews."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:490
+msgid "Everyone"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:491
+msgid "Admin Only"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:492
+msgid "Listing Owner & Admin"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:493
+msgid "Nobody"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:503
+msgid "Has Upgrades?"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:504
+msgid "Tick if this package is allowed to be upgraded to another package."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:512
+msgid "Upgrade To Packages"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:513
+msgid ""
+"Select the packages to show in the upgrade packages list during upgrade "
+"listing assigned this package."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:515
+msgid "Select Package"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:535
+msgid "Is Active?"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:536
+msgid "Tick to activate this package."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:544
+msgid "Is Default?"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:545
+msgid "Tick to use as a default package."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:553
+msgid "Is Private?"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:554
+msgid ""
+"If marked private then the package is not visible to frontend users to add a "
+"new listing."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:563
+msgid "Display Order"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:564
+msgid "Package sort order."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:577
+msgid "Downgrade to"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:578
+msgid "Select package to apply on expire of current package."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:587
+#: includes/admin/settings/class-geodir-pricing-settings-pricing.php:113
+msgid "Paid Listing Status"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:588
+msgid ""
+"Select status to apply to the post on payment received for the invoice. "
+"Select \"Default\" to apply post status set under \"Pricing > Listing "
+"Expiration Settings > Paid Listing Status\"."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:589
+#, php-format
+msgid "Default ( %s )"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:665
+msgid "Invalid package name."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:669
+msgid "Invalid post type."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:709
+msgid "Expire"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-cpt-package.php:749
+msgid "Search package"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-pricing.php:26
+msgid "Pricing"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-pricing.php:45
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-pricing.php:49
+msgid "Edit Package"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-pricing.php:49
+msgid "Add Package"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-pricing.php:86
+msgid "Listing Expiration Settings"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-pricing.php:94
+msgid "Enable listing expiry?"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-pricing.php:95
+msgid "If disabled then no listings will expire in future."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-pricing.php:102
+msgid "Expired Listing Status"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-pricing.php:103
+msgid "Select the listing default status after the listing expires."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-pricing.php:114
+msgid ""
+"Select the listing status to apply to the listing on payment received for "
+"the invoice."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-pricing.php:124
+msgid "Renewal for free package?"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-pricing.php:125
+msgid "Tick to allow renewal of listing with free package."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-pricing.php:134
+msgid "Cart Settings"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-pricing.php:142
+msgid "Cart"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-pricing.php:143
+#, php-format
+msgid ""
+"Select the cart for payments. You can use %sGetPaid%s (recommended) or "
+"%sWooCommerce%s."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-pricing.php:158
+msgid "Redirect to Checkout"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-pricing.php:159
+msgid "Select redirect to checkout after paid listing submitted."
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-pricing.php:162
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:63
+msgid "Auto"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-pricing.php:163
+msgid "After 1 sec delay"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-pricing.php:164
+msgid "After 2 sec delay"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-pricing.php:165
+msgid "After 3 sec delay"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-pricing.php:166
+msgid "After 4 sec delay"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-pricing.php:167
+msgid "After 5 sec delay"
+msgstr ""
+
+#: includes/admin/settings/class-geodir-pricing-settings-pricing.php:168
+msgid "No Redirect"
+msgstr ""
+
+#: includes/cart-functions.php:16
+msgid "No Cart"
+msgstr ""
+
+#: includes/cart-functions.php:20
+msgid "Invoicing"
+msgstr ""
+
+#: includes/cart-functions.php:24
+#: includes/carts/class-geodir-pricing-cart-getpaid-admin.php:454
+msgid "GetPaid"
+msgstr ""
+
+#: includes/cart-functions.php:29
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-getpaid-admin.php:99
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:660
+msgid "Listing Invoice"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-getpaid-admin.php:103
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:664
+msgid "Listing Invoices"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-getpaid-admin.php:130
+#, php-format
+msgid ""
+"Create a new invoice for this listing with the package <b>%s</b>. Invoice "
+"will be created with Pending Payment status."
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-getpaid-admin.php:137
+msgid "Create Invoice"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-getpaid-admin.php:164
+msgid "Invoice"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-getpaid-admin.php:165
+msgid "Created"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-getpaid-admin.php:166
+msgid "Paid"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-getpaid-admin.php:168
+#: includes/carts/class-geodir-pricing-cart-woocommerce.php:1467
+msgid "Total"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-getpaid-admin.php:256
+msgid "This listing has no invoices."
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-getpaid-admin.php:321
+#: includes/carts/class-geodir-pricing-cart-getpaid-admin.php:348
+msgid "Link Invoice"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-getpaid-admin.php:331
+#: includes/carts/class-geodir-pricing-cart-getpaid-admin.php:334
+#: includes/carts/class-geodir-pricing-cart-getpaid-admin.php:348
+msgid "Invoice ID or Number"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-getpaid-admin.php:332
+#: includes/carts/class-geodir-pricing-cart-getpaid-admin.php:349
+msgid ""
+"This is an advanced setting to manually link a listing to GetPaid invoice. "
+"Enter Invoice ID or Number. Ex: 3920."
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-getpaid-admin.php:370
+#, php-format
+msgid ""
+"This package can be edited from %sGeoDirectory > Settings > Pricing > "
+"Packages #%d%s"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-getpaid-admin.php:384
+msgid "GetPaid Item"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-getpaid-admin.php:461
+msgid "Payment Form"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-getpaid-admin.php:462
+msgid "Optional. Select a payment form to use when paying for this package."
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-getpaid-admin.php:464
+msgid "Select payment form"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-getpaid-admin.php:474
+msgid "Custom Prices"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-getpaid-admin.php:475
+msgid "Tick to let customers name their own prices."
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-getpaid-admin.php:485
+msgid "Disable Events Tickets"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-getpaid-admin.php:486
+msgid ""
+"Tick to disable buy/sell event tickets feature for the events added with "
+"this package."
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-getpaid-admin.php:582
+#: includes/carts/class-geodir-pricing-cart-getpaid.php:300
+msgid "Listings"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-getpaid.php:165
+#, php-format
+msgctxt "Invoice item description. (e.g.: Listing: My First Listing)"
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-getpaid.php:773
+msgid "Missing or invalid listing."
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-getpaid.php:788
+msgid "No package assigned to this listing."
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-getpaid.php:803
+msgid "No GetPaid item found with the package selected."
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-getpaid.php:814
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:749
+#, php-format
+msgid "Payment For: %s"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-getpaid.php:832
+#, php-format
+msgid "Invoice for: %1$s (%2$s)"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-getpaid.php:853
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:795
+#, php-format
+msgid "View Invoice #%s"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-getpaid.php:931
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:1014
+#, php-format
+msgid "Renew: %s"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-getpaid.php:935
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:1017
+#, php-format
+msgid "Upgrade: %s"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-getpaid.php:939
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:1020
+#, php-format
+msgid "Add: %s"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-getpaid.php:976
+#, php-format
+msgid "Invoice for %1$s (%2$s)"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-getpaid.php:1060
+#: includes/class-geodir-pricing-post.php:330
+msgid ""
+"A verification link has been sent to your email address, please click the "
+"link in the email to verify your listing claim."
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-getpaid.php:1064
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:1384
+#: includes/carts/class-geodir-pricing-cart-woocommerce.php:1660
+#: includes/class-geodir-pricing-post.php:327
+#, php-format
+msgid ""
+"Your request to claim the listing has been approved. View the listing %shere"
+"%s."
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-getpaid.php:1074
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:1389
+#: includes/carts/class-geodir-pricing-cart-woocommerce.php:1663
+#, php-format
+msgid "Your claim requires a payment to complete.  %sCheckout%s"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-getpaid.php:1105
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:1280
+#, php-format
+msgid "Claim: %s"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-getpaid.php:1116
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:1313
+#, php-format
+msgid "Invoice for the claim on: %1$s (%2$s)"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-getpaid.php:1232
+msgid ""
+"There was a problem creating your invoice. Please refresh the page and try "
+"again."
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-getpaid.php:1380
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:1506
+#: includes/carts/class-geodir-pricing-cart-woocommerce.php:1720
+#, php-format
+msgid ""
+"It looks like you already have a claim request for this listing before. Your "
+"claim requires a payment to complete.  %sCheckout%s"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-getpaid.php:1400
+#: includes/carts/class-geodir-pricing-cart-woocommerce.php:2202
+msgid "Invalid post."
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-getpaid.php:1407
+#: includes/carts/class-geodir-pricing-cart-woocommerce.php:2209
+msgid "Please assign a package to the post first."
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-getpaid.php:1413
+msgid "Invoice does not exist. Please enter a valid invoice id or number."
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-getpaid.php:1423
+msgid "Invoice don't have a cart item for the listing's current package."
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-getpaid.php:1428
+msgid "Invoice is already linked to another post. Please try other invoice id."
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-getpaid.php:1476
+#, php-format
+msgid "Could not link invoice to the post. Error: %s"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:199
+msgid ""
+"GD package items should be deleted from GD pricing manager only, otherwise "
+"it will break invoices that created with this package!"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:200
+msgid "GD package items should be deleted from GD pricing manager only"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:201
+msgid ""
+"This item is in use! Before delete this package, you need to delete all the "
+"invoice(s) using this package."
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:209
+#, php-format
+msgid ""
+"GD price package can be edited from %sGeoDirectory > Settings > Pricing > "
+"Packages #%d%s"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:330
+msgid "Merge Price Packages"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:331
+msgid ""
+"Merge GeoDirectory Pricing Manager price packages to the Invoicing items."
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:362
+#, php-format
+msgid "Total <b>%d</b> price package is merged successfully."
+msgid_plural "Total <b>%d</b> price packages are merged successfully."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:364
+msgid "No price packages merged."
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:368
+msgid "No price packages found to merge!"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:416
+msgid "Package: GeoDirectory price packages items."
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:560
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:570
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:579
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:588
+#, php-format
+msgid "%s: %s"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:596
+msgid "GD package item price can be edited only from GD pricing manager."
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:717
+#, php-format
+msgid ""
+"Create a new invoice for this listing with a package <b>%s</b>. Invoice will "
+"be created with Pending Payment status."
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:720
+msgid "Create Invoice for this Listing"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:784
+#, php-format
+msgid "Invoice For: %1$s (%2$s)"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:798
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:804
+msgid ""
+"Fail to create invoice. No invoicing item found with the package selected."
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:800
+msgid "Fail to create invoice. Please refresh page and try again."
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:807
+msgid "Fail to create invoice. No package assigned to this listing."
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:810
+msgid "This listing is not allowed to create invoice."
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:821
+msgid "<p>No invoice(s) found for this listing.</p>"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:827
+msgid "Number"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:828
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:849
+msgid "Customer"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:829
+msgid "Amount"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:830
+msgid "Created Date"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:831
+msgid "Payment Date"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:833
+msgid "Actions"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:847
+msgid "View Invoice Details"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:873
+msgid "(r)"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:875
+#: includes/carts/class-geodir-pricing-cart-woocommerce.php:1505
+#, php-format
+msgid "Via %s"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:879
+msgid "Print invoice"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:882
+msgid "Send invoice to customer"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:1059
+#, php-format
+msgid "Invoice for the listing: %1$s (%2$s)"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:1219
+msgid "Invoicing Item"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:1453
+msgid "Listing"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-invoicing.php:1463
+#, php-format
+msgid "%s Listing"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-woocommerce.php:164
+msgid "Listing Orders"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-woocommerce.php:542
+msgid ""
+"To manipulate product variations you should use the /products/&lt;"
+"product_id&gt;/variations/&lt;id&gt; endpoint."
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-woocommerce.php:868
+msgid "No package linked to this product."
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-woocommerce.php:993
+#, php-format
+msgid "Add %s"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-woocommerce.php:993
+msgid "Add Listing"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-woocommerce.php:995
+msgid "Read more"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-woocommerce.php:1101
+#: includes/carts/class-geodir-pricing-cart-woocommerce.php:1643
+msgid "Free order"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-woocommerce.php:1408
+msgid "WooCommerce Product"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-woocommerce.php:1465
+msgid "Date"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-woocommerce.php:1482
+#, php-format
+msgctxt "full name"
+msgid "%1$s %2$s"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-woocommerce.php:1496
+#, php-format
+msgctxt "%s = human-readable time difference"
+msgid "%s ago"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-woocommerce.php:1500
+msgid "M j, Y"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-woocommerce.php:1523
+msgid "<p>No order(s) found for this listing.</p>"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-woocommerce.php:1537
+#: includes/carts/class-geodir-pricing-cart-woocommerce.php:1561
+msgid "Link Order"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-woocommerce.php:1547
+#: includes/carts/class-geodir-pricing-cart-woocommerce.php:1550
+#: includes/carts/class-geodir-pricing-cart-woocommerce.php:1561
+msgid "Order Post ID"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-woocommerce.php:1548
+#: includes/carts/class-geodir-pricing-cart-woocommerce.php:1562
+msgid ""
+"This is an advanced setting to manually link a listing to WooCommerce order. "
+"Enter Order Post ID. Ex: 3920."
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-woocommerce.php:2215
+msgid "Order does not exist. Please enter a valid order id."
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-woocommerce.php:2225
+msgid "Order don't have a cart item for the listing's current package."
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-woocommerce.php:2230
+msgid "Order is already linked to another post. Please try other order id."
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart-woocommerce.php:2283
+#, php-format
+msgid "Could not link order to the post. Error: %s"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart.php:238
+#, php-format
+msgid ""
+"Post has been submitted, you need to complete checkout to renew the listing, "
+"you can preview it %shere%s.  %sCheckout%s"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart.php:248
+#, php-format
+msgid ""
+"Post has been submitted, you need to complete checkout to upgrade the "
+"listing, you can preview it %shere%s.  %sCheckout%s"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart.php:258
+#, php-format
+msgid ""
+"Post has been submitted, you need to complete checkout to make it live, you "
+"can preview it %shere%s. %sCheckout%s"
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart.php:276
+msgid "Redirecting for checkout..."
+msgstr ""
+
+#: includes/carts/class-geodir-pricing-cart.php:306
+msgid "Error: No Cart has been setup to accept payments."
+msgstr ""
+
+#: includes/class-geodir-pricing-ajax.php:64
+msgid "You are not allowed to delete package."
+msgstr ""
+
+#: includes/class-geodir-pricing-ajax.php:69
+msgid "Requested package does not exists."
+msgstr ""
+
+#: includes/class-geodir-pricing-ajax.php:73
+msgid "Default package can not be deleted!"
+msgstr ""
+
+#: includes/class-geodir-pricing-ajax.php:77
+msgid "Package deleted successfully."
+msgstr ""
+
+#: includes/class-geodir-pricing-ajax.php:79
+msgid "Fail to delete package!"
+msgstr ""
+
+#: includes/class-geodir-pricing-ajax.php:101
+#: includes/class-geodir-pricing-ajax.php:127
+msgid "Requested package does not exists!"
+msgstr ""
+
+#: includes/class-geodir-pricing-ajax.php:106
+msgid "Default package set successfully."
+msgstr ""
+
+#: includes/class-geodir-pricing-email.php:66
+msgid "Pre expiry reminders"
+msgstr ""
+
+#: includes/class-geodir-pricing-email.php:67
+msgid ""
+"This will send a BCC email to the site admin on listing pre expiry reminders "
+"sent."
+msgstr ""
+
+#: includes/class-geodir-pricing-email.php:74
+msgid "Listing renewed"
+msgstr ""
+
+#: includes/class-geodir-pricing-email.php:75
+msgid "This will send a BCC email to the site admin on listing renewed."
+msgstr ""
+
+#: includes/class-geodir-pricing-email.php:82
+msgid "Listing upgraded"
+msgstr ""
+
+#: includes/class-geodir-pricing-email.php:83
+msgid "This will send a BCC email to the site admin on listing upgraded."
+msgstr ""
+
+#: includes/class-geodir-pricing-email.php:90
+msgid "Listing package downgraded"
+msgstr ""
+
+#: includes/class-geodir-pricing-email.php:91
+msgid ""
+"This will send a BCC email to the site admin on listing package downgraded."
+msgstr ""
+
+#: includes/class-geodir-pricing-email.php:98
+msgid "Listing expired"
+msgstr ""
+
+#: includes/class-geodir-pricing-email.php:99
+msgid "This will send a BCC email to the site admin on listing expired."
+msgstr ""
+
+#: includes/class-geodir-pricing-email.php:114
+msgid "Post renew success email to admin"
+msgstr ""
+
+#: includes/class-geodir-pricing-email.php:120
+#: includes/class-geodir-pricing-email.php:160
+#: includes/class-geodir-pricing-email.php:206
+#: includes/class-geodir-pricing-email.php:256
+#: includes/class-geodir-pricing-email.php:296
+#: includes/class-geodir-pricing-email.php:336
+#: includes/class-geodir-pricing-email.php:376
+msgid "Enable email"
+msgstr ""
+
+#: includes/class-geodir-pricing-email.php:121
+msgid "Send an email to admin after successfull post renewal."
+msgstr ""
+
+#: includes/class-geodir-pricing-email.php:127
+#: includes/class-geodir-pricing-email.php:167
+#: includes/class-geodir-pricing-email.php:223
+#: includes/class-geodir-pricing-email.php:263
+#: includes/class-geodir-pricing-email.php:303
+#: includes/class-geodir-pricing-email.php:343
+#: includes/class-geodir-pricing-email.php:383
+msgid "Subject"
+msgstr ""
+
+#: includes/class-geodir-pricing-email.php:128
+#: includes/class-geodir-pricing-email.php:168
+#: includes/class-geodir-pricing-email.php:224
+#: includes/class-geodir-pricing-email.php:264
+#: includes/class-geodir-pricing-email.php:304
+#: includes/class-geodir-pricing-email.php:344
+#: includes/class-geodir-pricing-email.php:384
+msgid "The email subject."
+msgstr ""
+
+#: includes/class-geodir-pricing-email.php:137
+#: includes/class-geodir-pricing-email.php:177
+#: includes/class-geodir-pricing-email.php:233
+#: includes/class-geodir-pricing-email.php:273
+#: includes/class-geodir-pricing-email.php:313
+#: includes/class-geodir-pricing-email.php:353
+#: includes/class-geodir-pricing-email.php:393
+msgid "Body"
+msgstr ""
+
+#: includes/class-geodir-pricing-email.php:138
+#: includes/class-geodir-pricing-email.php:178
+#: includes/class-geodir-pricing-email.php:234
+#: includes/class-geodir-pricing-email.php:274
+#: includes/class-geodir-pricing-email.php:314
+#: includes/class-geodir-pricing-email.php:354
+#: includes/class-geodir-pricing-email.php:394
+msgid "The email body, this can be text or HTML."
+msgstr ""
+
+#: includes/class-geodir-pricing-email.php:143
+#: includes/class-geodir-pricing-email.php:183
+#: includes/class-geodir-pricing-email.php:239
+#: includes/class-geodir-pricing-email.php:279
+#: includes/class-geodir-pricing-email.php:319
+#: includes/class-geodir-pricing-email.php:359
+#: includes/class-geodir-pricing-email.php:399
+msgid "Available template tags:"
+msgstr ""
+
+#: includes/class-geodir-pricing-email.php:154
+msgid "Post upgrade success email to admin"
+msgstr ""
+
+#: includes/class-geodir-pricing-email.php:161
+msgid "Send an email to admin after successfull post upgrade."
+msgstr ""
+
+#: includes/class-geodir-pricing-email.php:200
+msgid "Pre expiry reminders to user"
+msgstr ""
+
+#: includes/class-geodir-pricing-email.php:207
+msgid "Send pre expiry reminders email to user."
+msgstr ""
+
+#: includes/class-geodir-pricing-email.php:213
+msgid "When to Send"
+msgstr ""
+
+#: includes/class-geodir-pricing-email.php:214
+msgid "Check when you would like pre expiry reminders sent out."
+msgstr ""
+
+#: includes/class-geodir-pricing-email.php:250
+msgid "Post renew success email to user"
+msgstr ""
+
+#: includes/class-geodir-pricing-email.php:257
+msgid "Send an email to user after successfull post renewal."
+msgstr ""
+
+#: includes/class-geodir-pricing-email.php:290
+msgid "Post upgrade success email to user"
+msgstr ""
+
+#: includes/class-geodir-pricing-email.php:297
+msgid "Send an email to user after successfull post upgrade."
+msgstr ""
+
+#: includes/class-geodir-pricing-email.php:330
+msgid "Post package downgraded email to user"
+msgstr ""
+
+#: includes/class-geodir-pricing-email.php:337
+msgid "Send an email to user after post package downgrade to another package."
+msgstr ""
+
+#: includes/class-geodir-pricing-email.php:370
+msgid "Post expired email to user"
+msgstr ""
+
+#: includes/class-geodir-pricing-email.php:377
+msgid "Send an email to user after post has been marked as expired."
+msgstr ""
+
+#: includes/class-geodir-pricing-email.php:491
+#: includes/class-geodir-pricing-post.php:1295
+#: includes/template-functions.php:289
+msgid "Renew"
+msgstr ""
+
+#: includes/class-geodir-pricing-email.php:492
+#: includes/class-geodir-pricing-post.php:1304
+#: includes/template-functions.php:318
+msgid "Upgrade"
+msgstr ""
+
+#: includes/class-geodir-pricing-email.php:688
+msgid "[[#site_name#]] Your listing has been renewed"
+msgstr ""
+
+#: includes/class-geodir-pricing-email.php:695
+msgid ""
+"Dear [#client_name#],\n"
+"\n"
+"Your listing [#listing_link#] has been renewed.\n"
+"\n"
+"NOTE: If your listing is not active yet your payment may be being checked by "
+"an admin and it will be activated shortly.\n"
+"\n"
+"Thank You."
+msgstr ""
+
+#: includes/class-geodir-pricing-email.php:707
+msgid "[[#site_name#]] Your listing has been upgraded"
+msgstr ""
+
+#: includes/class-geodir-pricing-email.php:714
+msgid ""
+"Dear [#client_name#],\n"
+"\n"
+"Your listing [#listing_link#] has been upgraded.\n"
+"\n"
+"NOTE: If your listing is not active yet your payment may be being checked by "
+"an admin and it will be activated shortly.\n"
+"\n"
+"Thank You."
+msgstr ""
+
+#: includes/class-geodir-pricing-email.php:726
+msgid "[[#site_name#]] The listing has been renewed"
+msgstr ""
+
+#: includes/class-geodir-pricing-email.php:733
+msgid ""
+"Dear Admin,\n"
+"\n"
+"The listing [#listing_link#] has been renewed.\n"
+"\n"
+"Please confirm payment and then update the listings published date to todays "
+"date.\n"
+"\n"
+"NOTE: If payment was made by live gateway site then the published date "
+"should be updated automatically.\n"
+"\n"
+"Thank You."
+msgstr ""
+
+#: includes/class-geodir-pricing-email.php:747
+msgid "[[#site_name#]] The listing has been upgraded"
+msgstr ""
+
+#: includes/class-geodir-pricing-email.php:754
+msgid ""
+"Dear Admin,\n"
+"\n"
+"The listing [#listing_link#] has been upgraded.\n"
+"\n"
+"Please confirm payment and then update the listings published date to todays "
+"date.\n"
+"\n"
+"NOTE: If payment was made by live gateway site then the published date "
+"should be updated automatically.\n"
+"\n"
+"Thank You."
+msgstr ""
+
+#: includes/class-geodir-pricing-email.php:768
+msgid "[[#site_name#]] Listing Expiration Reminder"
+msgstr ""
+
+#: includes/class-geodir-pricing-email.php:775
+msgid ""
+"Dear [#client_name#],\n"
+"\n"
+"Your listing [#listing_link#] is about to expire in [#number_of_grace_days#] "
+"days. After listing goes expire it will no longer appear on the site.\n"
+"\n"
+"If you wish to renew your listing, simply login to your member area and "
+"renew it before it expire.\n"
+"\n"
+"Your listing expires on: [#display_expire_date#].\n"
+"\n"
+"Login link: [#login_url#]\n"
+"Username: [#username#]\n"
+"Email: [#user_email#]\n"
+"\n"
+"Thank You."
+msgstr ""
+
+#: includes/class-geodir-pricing-email.php:793
+msgid "[[#site_name#]] Your listing has been expired"
+msgstr ""
+
+#: includes/class-geodir-pricing-email.php:800
+msgid ""
+"Hi [#client_name#],\n"
+"\n"
+"Your listing [#listing_link#] has been expired on [#display_expire_date#].\n"
+"\n"
+"If you wish to renew your listing, simply login to your member area and "
+"renew it.\n"
+"\n"
+"Thank You."
+msgstr ""
+
+#: includes/class-geodir-pricing-email.php:826
+msgid "[[#site_name#]] Your listing has been downgraded to another package"
+msgstr ""
+
+#: includes/class-geodir-pricing-email.php:833
+msgid ""
+"Hi [#client_name#],\n"
+"\n"
+"Your listing [#listing_link#] package has been downgraded from "
+"\"[#previous_post_package_name#]\" to \"[#post_package_name#]\".\n"
+"\n"
+"New expire date: [#display_expire_date#]\n"
+"\n"
+"Thank You."
+msgstr ""
+
+#: includes/class-geodir-pricing-package.php:419
+msgid "(Free)"
+msgstr ""
+
+#: includes/class-geodir-pricing-package.php:548
+msgid "Invalid package id."
+msgstr ""
+
+#: includes/class-geodir-pricing-package.php:595
+msgid "Could not update package in the database"
+msgstr ""
+
+#: includes/class-geodir-pricing-package.php:603
+msgid "Could not insert package into the database"
+msgstr ""
+
+#: includes/class-geodir-pricing-package.php:648
+msgid "Invalid package ID."
+msgstr ""
+
+#: includes/class-geodir-pricing-post-limit.php:57
+#, php-format
+msgid ""
+"You have reached the limit of %s you can add at this time with package \"%s"
+"\"."
+msgstr ""
+
+#: includes/class-geodir-pricing-post-limit.php:62
+#, php-format
+msgid "You are not allowed to add %s with package \"%s\"."
+msgstr ""
+
+#: includes/class-geodir-pricing-post-limit.php:70
+msgid "Choose other package to add new listing."
+msgstr ""
+
+#: includes/class-geodir-pricing-post-package.php:47
+msgid "Could not find post package"
+msgstr ""
+
+#: includes/class-geodir-pricing-post-package.php:61
+#: includes/class-geodir-pricing-post-package.php:77
+#: includes/class-geodir-pricing-post-package.php:98
+msgid "Could not save post package"
+msgstr ""
+
+#: includes/class-geodir-pricing-post.php:104
+#: includes/template-functions.php:179
+msgid "business"
+msgstr ""
+
+#: includes/class-geodir-pricing-post.php:113
+#, php-format
+msgid "Your %s has expired and may be removed soon, please %srenew now.%s"
+msgstr ""
+
+#: includes/class-geodir-pricing-post.php:118
+#, php-format
+msgid "This %s appears to have expired and may be removed soon."
+msgstr ""
+
+#: includes/class-geodir-pricing-post.php:139
+#: includes/class-geodir-pricing-post.php:156
+#: includes/class-geodir-pricing-post.php:206
+#: includes/class-geodir-pricing-post.php:222
+msgid "Pending Payment"
+msgstr ""
+
+#: includes/class-geodir-pricing-post.php:160
+#: includes/class-geodir-pricing-post.php:224
+msgid "Expired"
+msgstr ""
+
+#: includes/class-geodir-pricing-post.php:183
+msgid "Status:"
+msgstr ""
+
+#: includes/class-geodir-pricing-post.php:332
+msgid ""
+"Your request to claim this listing has been sent successfully. You will be "
+"notified by email once a decision has been made."
+msgstr ""
+
+#: includes/class-geodir-pricing-post.php:389
+#: includes/class-geodir-pricing-post.php:402
+msgctxt "Listing status"
+msgid "Expired"
+msgstr ""
+
+#: includes/class-geodir-pricing-post.php:395
+#, php-format
+msgid "Expired <span class=\"count\">(%s)</span>"
+msgid_plural "Expired <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-geodir-pricing-post.php:542
+#: includes/class-geodir-pricing-post.php:597
+msgid "You must select a package."
+msgstr ""
+
+#: includes/class-geodir-pricing-post.php:779
+msgid "days left"
+msgstr ""
+
+#: includes/class-geodir-pricing-post.php:787
+msgid "Today"
+msgstr ""
+
+#: includes/class-geodir-pricing-post.php:790
+msgid "days overdue"
+msgstr ""
+
+#: includes/class-geodir-pricing-post.php:1179
+#: includes/class-geodir-pricing-post.php:1200
+msgid ""
+"There is a problem with the listing package configuration, please contact "
+"the administrator."
+msgstr ""
+
+#: includes/class-geodir-pricing-post.php:1255
+#, php-format
+msgid ""
+"Post renew received, your changes are now live and can be viewed %shere%s."
+msgstr ""
+
+#: includes/class-geodir-pricing-post.php:1257
+#, php-format
+msgid ""
+"Post upgrade received, your changes are now live and can be viewed %shere%s."
+msgstr ""
+
+#: includes/class-geodir-pricing-post.php:1262
+msgid ""
+"Post renew received, your changes may need to be reviewed before going live."
+msgstr ""
+
+#: includes/class-geodir-pricing-post.php:1264
+msgid ""
+"Post upgrade received, your changes may need to be reviewed before going "
+"live."
+msgstr ""
+
+#: includes/class-geodir-pricing-privacy.php:20
+msgid "GeoDirectory Pricing Manager"
+msgstr ""
+
+#: includes/class-geodir-pricing-privacy.php:36
+msgid "Post Expire Date"
+msgstr ""
+
+#: includes/class-geodir-pricing-privacy.php:43
+msgid "Post Package"
+msgstr ""
+
+#: includes/class-geodir-pricing.php:202
+#, php-format
+msgid ""
+"<b>Important:</b> Pricing Manager is in <b>No Cart</b> mode, try %sGetPaid%s "
+"(recommended) or %sWooCommerce%s to receive real payments. Set cart from "
+"%shere%s."
+msgstr ""
+
+#: includes/class-geodir-pricing.php:264
+msgid ""
+"GeoDirectory plugin is required for the GeoDirectory Pricing Manager plugin "
+"to work properly."
+msgstr ""
+
+#: includes/class-geodir-pricing.php:276
+msgid ""
+"Your version of PHP is below the minimum version of PHP required by "
+"GeoDirectory Pricing Manager. Please contact your host and request that your "
+"version be upgraded to 5.3 or later."
+msgstr ""
+
+#: includes/core-functions.php:16
+msgid "On Expiry Date"
+msgstr ""
+
+#: includes/core-functions.php:17
+msgid "1 day before Expire Date"
+msgstr ""
+
+#: includes/core-functions.php:20 includes/core-functions.php:24
+#, php-format
+msgid "%d days before Expire Date"
+msgstr ""
+
+#: includes/core-functions.php:485
+#, php-format
+msgid "%s year left"
+msgid_plural "%s years left"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/core-functions.php:487
+#, php-format
+msgid "%s year overdue"
+msgid_plural "%s years overdue"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/core-functions.php:497
+msgid "today"
+msgstr ""
+
+#: includes/core-functions.php:499
+#, php-format
+msgid "%s day left"
+msgid_plural "%s days left"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/core-functions.php:501
+#, php-format
+msgid "%s day overdue"
+msgid_plural "%s days overdue"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/core-functions.php:697
+msgid "Day(s)"
+msgstr ""
+
+#: includes/core-functions.php:698
+msgid "Week(s)"
+msgstr ""
+
+#: includes/core-functions.php:699
+msgid "Month(s)"
+msgstr ""
+
+#: includes/core-functions.php:700
+msgid "Year(s)"
+msgstr ""
+
+#: includes/core-functions.php:710
+msgid "days"
+msgstr ""
+
+#: includes/core-functions.php:710 includes/core-functions.php:844
+msgid "day"
+msgstr ""
+
+#: includes/core-functions.php:713
+msgid "weeks"
+msgstr ""
+
+#: includes/core-functions.php:713 includes/core-functions.php:847
+msgid "week"
+msgstr ""
+
+#: includes/core-functions.php:716
+msgid "months"
+msgstr ""
+
+#: includes/core-functions.php:716 includes/core-functions.php:850
+msgid "month"
+msgstr ""
+
+#: includes/core-functions.php:719
+msgid "years"
+msgstr ""
+
+#: includes/core-functions.php:719 includes/core-functions.php:853
+msgid "year"
+msgstr ""
+
+#: includes/core-functions.php:758 includes/core-functions.php:801
+#, php-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/core-functions.php:761 includes/core-functions.php:804
+#, php-format
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/core-functions.php:764 includes/core-functions.php:807
+#, php-format
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/core-functions.php:767 includes/core-functions.php:810
+#, php-format
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/core-functions.php:839
+msgid "lifetime"
+msgstr ""
+
+#: includes/core-functions.php:844
+#, php-format
+msgid "%d days"
+msgstr ""
+
+#: includes/core-functions.php:847
+#, php-format
+msgid "%d weeks"
+msgstr ""
+
+#: includes/core-functions.php:850
+#, php-format
+msgid "%d months"
+msgstr ""
+
+#: includes/core-functions.php:853
+#, php-format
+msgid "%d years"
+msgstr ""
+
+#: includes/template-functions.php:289
+msgid "Renew Listing"
+msgstr ""
+
+#: includes/template-functions.php:318
+msgid "Upgrade Listing"
+msgstr ""
+
+#: includes/template-functions.php:378
+#, php-format
+msgid "For description you can use up to %d characters only for this package."
+msgstr ""
+
+#: includes/template-functions.php:425
+msgid "Auto renewing"
+msgstr ""
+
+#: includes/template-functions.php:446
+#, php-format
+msgid "%s free trial"
+msgstr ""
+
+#: includes/template-functions.php:450
+msgid "Free trial"
+msgstr ""
+
+#: includes/template-functions.php:462
+#, php-format
+msgid "Featured %s"
+msgstr ""
+
+#: includes/template-functions.php:482
+#, php-format
+msgid "%d photo"
+msgid_plural "%d photos"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/template-functions.php:484
+msgid "Unlimited photos"
+msgstr ""
+
+#: includes/template-functions.php:489
+msgid "No photo"
+msgstr ""
+
+#: includes/template-functions.php:504
+#, php-format
+msgid "%d category"
+msgid_plural "%d categories"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/template-functions.php:506
+msgid "Unlimited categories"
+msgstr ""
+
+#: includes/template-functions.php:519
+#, php-format
+msgid "%d tag"
+msgid_plural "%d tags"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/template-functions.php:521
+msgid "Unlimited tags"
+msgstr ""
+
+#: includes/template-functions.php:528
+msgid "Unlimited description"
+msgstr ""
+
+#: includes/template-functions.php:542
+msgid "HTML editor for description"
+msgstr ""
+
+#: includes/template-functions.php:571
+msgid "All fields"
+msgstr ""
+
+#: includes/template-functions.php:575
+msgid "No"
+msgstr ""
+
+#: includes/template-functions.php:590
+msgid "Admin can reply reviews"
+msgstr ""
+
+#: includes/template-functions.php:592
+msgid "Owner can reply reviews"
+msgstr ""
+
+#: includes/template-functions.php:594
+msgid "Everyone can reply reviews"
+msgstr ""
+
+#: includes/template-functions.php:599
+msgid "No review replies"
+msgstr ""
+
+#: includes/template-functions.php:639
+msgid "Package IDs:"
+msgstr ""
+
+#: includes/template-functions.php:640
+msgid ""
+"Enter a comma separated list of package ids (1,2,3) to limit the listing to "
+"these packages only, or a negative list (-1,-2,-3) to exclude those package "
+"ids (negative and positive ids can not be mixed) "
+msgstr ""
+
+#: includes/template-functions.php:645
+msgid "Filters"
+msgstr ""
+
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:33
+msgid "GD > Pricing"
+msgstr ""
+
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:36
+msgid "Displays pricing plans for the post type."
+msgstr ""
+
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:53
+msgid "Title:"
+msgstr ""
+
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:54
+msgid "The widget title."
+msgstr ""
+
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:61
+msgid "Post Type:"
+msgstr ""
+
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:62
+msgid ""
+"Post type to show package. Select \"Auto\" to show packages for current or "
+"default post type."
+msgstr ""
+
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:73
+msgid "Layout:"
+msgstr ""
+
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:74
+msgid "Layout to display pricing."
+msgstr ""
+
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:76
+msgid "Default (three columns)"
+msgstr ""
+
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:77
+msgid "One column"
+msgstr ""
+
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:78
+msgid "Two columns"
+msgstr ""
+
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:79
+msgid "Three columns"
+msgstr ""
+
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:80
+msgid "Four columns"
+msgstr ""
+
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:81
+msgid "Five columns"
+msgstr ""
+
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:82
+msgid "Six columns"
+msgstr ""
+
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:87
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:98
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:109
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:123
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:137
+msgid "Design"
+msgstr ""
+
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:92
+msgid "Tick Icon:"
+msgstr ""
+
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:93
+msgid "FontAwesome icon for allowed feature. Ex: fas fa-check-circle"
+msgstr ""
+
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:103
+msgid "Untick Icon:"
+msgstr ""
+
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:104
+msgid "FontAwesome icon for not allowed feature. Ex: fas fa-times-circle"
+msgstr ""
+
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:114
+msgid "Default Color:"
+msgstr ""
+
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:115
+msgid "Color to highlight non-default packages."
+msgstr ""
+
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:118
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:132
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:146
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:165
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:184
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:198
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:211
+msgid "None"
+msgstr ""
+
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:128
+msgid "Highlight Color:"
+msgstr ""
+
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:129
+msgid "Color to highlight a default package."
+msgstr ""
+
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:141
+msgid "Card Row Gap:"
+msgstr ""
+
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:142
+msgid "This adjusts the spacing between the cards horizontally."
+msgstr ""
+
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:156
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:175
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:189
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:206
+msgid "Card Design"
+msgstr ""
+
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:160
+msgid "Card Column Gap:"
+msgstr ""
+
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:161
+msgid "This adjusts the spacing between the cards vertically."
+msgstr ""
+
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:179
+msgid "Card Border:"
+msgstr ""
+
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:180
+msgid "Set the border style for the card."
+msgstr ""
+
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:193
+msgid "Card Shadow:"
+msgstr ""
+
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:194
+msgid "Set the card shadow style."
+msgstr ""
+
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:197
+msgid "Default (medium)"
+msgstr ""
+
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:199
+msgid "Small"
+msgstr ""
+
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:200
+msgid "Medium"
+msgstr ""
+
+#: includes/widgets/class-geodir-pricing-widget-pricing.php:201
+msgid "Large"
+msgstr ""
+
+#: includes/widgets/class-geodir-pricing-widget-single-expired-text.php:22
+msgid "GD > Single Expired Text"
+msgstr ""
+
+#: includes/widgets/class-geodir-pricing-widget-single-expired-text.php:25
+msgid "Shows a expired warning text if a post has the expired status."
+msgstr ""
+
+#: templates/bootstrap/loop/package.php:37 templates/legacy/loop/package.php:35
+msgid "Select Plan"
+msgstr ""
+
+#: templates/bootstrap/view/post-expired-text.php:21
+#: templates/view/post-expired-text.php:23
+#, php-format
+msgid "This %s appears to have expired."
+msgstr ""

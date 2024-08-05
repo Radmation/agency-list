@@ -1,0 +1,142 @@
+.geodir-compare-popup-list-container {
+	list-style-type: none;
+	list-style-type: none;
+	border: 1px #dedede solid;
+	max-height: 60vh;
+	overflow-y: auto;
+	padding: 20px;
+}
+
+.geodir-compare-popup-list-container li {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.geodir-compare-popup-list-container li h3 {
+	margin-top: 0;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+
+.geodir-compare-popup-list-details{
+	margin-left: 16px;
+}
+
+.geodir-compare-popup-list-actions{
+	font-size: 0.8rem;
+}
+
+.geodir-compare-popup-list-container li img,
+.geodir-compare-popup-list-container li .gd-compare-image {
+	height: 50px;
+	width: 50px;
+}
+
+.geodir-compare-popup-list-container .geodir-compare-popup-button {
+	margin-left: 20px;
+}
+
+.geodir-compare-page-wrapper {
+	overflow-x: auto;
+}
+
+.geodir-compare-page-wrapper .gd-list-rating-link{
+	display: block;
+}
+
+.geodir-compare-page-wrapper .geodir-compare-page-table {
+	table-layout: auto;
+	min-width: 100%;
+	border-collapse: collapse;
+}
+
+.geodir-compare-page-wrapper td,
+.geodir-compare-page-wrapper th {
+	word-break: keep-all;
+	padding: 6px 16px;
+	border: none;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+	border-right: 1px solid rgba(0, 0, 0, 0.05);
+	text-align: center;
+	max-width: 200px;
+}
+
+.geodir-compare-page-wrapper th {
+	border-top: 1px solid rgba(0, 0, 0, 0.05);
+	background: #fafafa;
+	position: relative;
+}
+
+.geodir-compare-listing-header .geodir-compare-table-remove-listing {
+	top: 4px;
+	right: 10px;
+}
+.geodir-compare-listing-header{
+	min-width: 180px;
+}
+
+.geodir-compare-listing-header-titles{
+	width: 10%;
+	min-width: 120px;
+}
+
+.geodir-compare-page-table .geodir-post-slider {
+	overflow: hidden;
+	width: 100%;
+}
+
+.geodir-compare-page-wrapper td:first-child {
+	background: #fafafa;
+	border-left: 1px solid rgba(0, 0, 0, 0.05);
+	text-align: left;
+}
+
+.geodir-compare-page-wrapper h2 {
+	font-size: 1.6rem;
+}
+
+.geodir-compare-images {
+	list-style-type: none;
+}
+
+.geodir-compare-images img {
+	max-width: 100%;
+	height: auto;
+	width: 200px;
+}
+
+.geodir-compare-notice {
+    font-size: 0.8rem;
+    color: #795548;
+}
+
+.geodir-compare-success {
+    font-size: 0.8rem;
+    color: #4caf50;
+}
+
+.geodir-compare-table-remove-listing {
+	border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    padding-top: 3px;
+}
+
+.geodir-compare-table-remove-listing:hover {
+	cursor: pointer;
+	color: red;
+}
+
+.geodir-compare-flex{
+	display: flex;
+	align-items : center;
+}
+
+.geodir-compare-padded a{
+	flex: 1;
+	text-align: right;
+}
+
+.geodir-compare-padded-left{
+	padding-left: 1em;
+}
