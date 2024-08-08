@@ -9,3 +9,5 @@ www/wp-config.php
 node_modules
 aiowps_backups
 www/wp-content/cache
+
+www/wp-content/uploads

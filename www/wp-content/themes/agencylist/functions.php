@@ -8,6 +8,8 @@
  * @since 1.0.0
  */
 
+require_once('AgencyList.php');
+
 /**
  * Define Constants
  */
@@ -82,7 +84,6 @@ add_filter('wp_list_comments_args', function($args) {
     $args['callback'] = 'dws_agency_comment';
     return $args;
 }, PHP_INT_MAX); // doing this here instead of in the template lets GeoDirectory run it's argument parsing logic on hook priority 10
-
 add_filter('comment_post_redirect', function($location, /** @var \WP_Comment $comment */ $comment) {
     return get_permalink( $comment->comment_post_ID );
 }, 10, 2);
@@ -940,6 +941,13 @@ add_filter('geodir_custom_field_input_file', function ($html, $cf) {
 
     <?php endif; return ob_get_clean();
 },10,2);
+add_filter( 'geodir_add_listing_btn_text', function( $text ) {
+    if ( isset( $_GET['pid'] ) ) {
+        return 'Update Listing';
+    }
+
+    return $text;
+} );
 
 add_action( 'init', function() {
     remove_filter('the_title',array(GeoDir_SEO::class,'output_title'),10); // otherwise the extra sections on the agency page will have wrong titles
@@ -950,14 +958,6 @@ add_filter( 'wpseo_frontend_presenters', function( $presenters ) {
     }
 
     return $presenters;
-} );
-
-add_filter( 'geodir_add_listing_btn_text', function( $text ) {
-    if ( isset( $_GET['pid'] ) ) {
-        return 'Update Listing';
-    }
-
-    return $text;
 } );
 
 /*
@@ -1099,8 +1099,6 @@ add_action('dws_continue_import', function( $start ) {
 });
 */
 
-
-
 add_shortcode( 'viewcounter', 'wp_shortcode' );
 function wp_shortcode() {
     global $page;
@@ -1112,18 +1110,14 @@ function wp_shortcode() {
     return $return;
 }
 
-
-
-
+add_shortcode('current_user', 'display_current_user_display_name');
 function display_current_user_display_name () {
     $user = wp_get_current_user();
     $display_name = $user->user_login;
     return $user->user_login;
 }
-add_shortcode('current_user', 'display_current_user_display_name');
 
-
-
+add_shortcode('check_posts', 'check_user_posts');
 function check_user_posts () {
 ?>
 
@@ -1184,4 +1178,3 @@ function check_user_posts () {
 
 }
 
-add_shortcode('check_posts', 'check_user_posts');

@@ -913,6 +913,20 @@ class GeoDir_Post_Data {
 
 		do_action( 'geodir_before_add_listing_form', $listing_type, $post, $package );
 		?>
+		<div class="wizard">
+			<aside class="wizard-content container">
+				<div class="wizard-step">
+					<h1>One</h1>
+				</div>
+				<div class="wizard-step">
+					<h1>Two</h1>
+				</div>
+				<div class="wizard-step">
+					<h1>Three</h1>
+				</div>
+			</aside>
+		</div>
+
 		<form name="geodirectory-add-post" id="geodirectory-add-post" class="<?php echo $wrap_class;?>"
 		      action="<?php echo get_page_link( $post->ID ); ?>" method="post"
 		      enctype="multipart/form-data">
